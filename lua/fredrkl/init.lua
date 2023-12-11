@@ -1,2 +1,2 @@
 require("fredrkl.remap")
-print("hello from fredrkl")
+--print("hello from fredrkl")
