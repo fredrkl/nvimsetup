@@ -27,4 +27,5 @@ vim.keymap.set("n", "<leader>pe", ":NvimTreeFocus<CR>", {noremap = true, silent 
 
 --Ctrl w+h
 vim.api.nvim_set_keymap('n', '<C-l>', '<C-w>h', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>pw', '<C-w>h', {noremap = true, silent = true})
 
