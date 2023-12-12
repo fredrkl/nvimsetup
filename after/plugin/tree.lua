@@ -24,5 +24,7 @@ require("nvim-tree").setup({
 
 vim.keymap.set("n", "<leader>pv", ":NvimTreeToggle<CR>", {noremap = true, silent = true})
 vim.keymap.set("n", "<leader>pe", ":NvimTreeFocus<CR>", {noremap = true, silent = true})
-vim.api.nvim_set_keymap('n', '<C-l>', '<C-w>r', {noremap = true, silent = true})
+
+--Ctrl w+h
+vim.api.nvim_set_keymap('n', '<C-l>', '<C-w>h', {noremap = true, silent = true})
 
