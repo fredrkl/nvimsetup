@@ -1,4 +1,5 @@
 # My neovim setup
+
 My nvim config
 
 ## Requirements
