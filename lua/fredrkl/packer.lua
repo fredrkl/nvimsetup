@@ -12,4 +12,5 @@ return require('packer').startup(function(use)
          requires = { {'nvim-lua/plenary.nvim'} }
   }
   use 'nvim-tree/nvim-tree.lua'
+  use 'mbbill/undotree'
 end)
