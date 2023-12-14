@@ -11,4 +11,4 @@
 
 ## Sources
 
-- Following the [primeagen guide](https://www.youtube.com/watch?v=w7i4amO_zaE).
+- Following the [primeagen guide](https://www.youtube.com/watch?v=w7i4amO_zaE)
