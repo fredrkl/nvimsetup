@@ -1,1 +1,2 @@
-require("fredrkl.remap")
+--require("fredrkl.remap")
+require("fredrkl.lazy")
