@@ -12,12 +12,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 -- Example using a list of specs with the default options
 
-require("lazy").setup({
-  "folke/which-key.nvim",
-  { "folke/neoconf.nvim", cmd = "Neoconf" },
-  "folke/neodev.nvim",
-})
-
+require("lazy").setup("fredrkl.plugins")
 
 --  use 'wbthomason/packer.nvim'
 --  use {
@@ -26,4 +21,4 @@ require("lazy").setup({
 --         requires = { {'nvim-lua/plenary.nvim'} }
 --  }
 --  use 'nvim-tree/nvim-tree.lua'
---  use 'mbbill/undotree'
+--  use 'mbbill/undotree':
