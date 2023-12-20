@@ -8,7 +8,6 @@ return {
     'L3MON4D3/LuaSnip', -- snippet engine
     'saadparwaiz1/cmp_luasnip', -- for autocompletion
     'rafamadriz/friendly-snippets', -- Adds a number of user-friendly snippets
-    'hrsh7th/cmp-nvim-lsp', -- Adds LSP completion capabilities
   },
   config = function()
     local cmp = require("cmp")
@@ -38,7 +37,7 @@ return {
       }),
       -- sources for autocompletion
       sources = cmp.config.sources({
-        { name = "nvim_lsp" },
+        { name = "nvim_lsp" }, -- lsp servers
         { name = "luasnip" }, -- snippets
         { name = "buffer" }, -- text within current buffer
         { name = "path" }, -- file system paths
