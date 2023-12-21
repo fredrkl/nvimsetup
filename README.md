@@ -3,6 +3,7 @@
 ## Requirements
 
 - [Nerdfonts](https://www.nerdfonts.com/font-downloads)
+- [Dotnet sdk](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
 
 ## Setup
 
@@ -19,8 +20,12 @@
 
 ## Mason
 
-This plugin uses the Mason plugin to manage LSPs. The LSP for Bicep need additional configuration by setting the `cmd` property. Please see the `nvim-lspconfig.lua` for more information.
+This plugin uses the Mason plugin to manage LSPs.
 
 ### Available Mason LSP servers
 
 <https://github.com/williamboman/mason-lspconfig.nvim?tab=readme-ov-file#available-lsp-servers>
+
+## Bicep
+
+The LSP for Bicep need `dotnet cli` to run, and is started with the `cmd` property.  Please see the `nvim-lspconfig.lua` for more information.
