@@ -24,4 +24,4 @@ This plugin uses the Mason plugin to manage LSPs. See the mason github repo for 
 
 ## Bicep
 
-The LSP for Bicep need `dotnet cli` to run, and is started with the `cmd` property.  Please see the [`nvim-lspconfig.lua`](./lua/fredrkl/plugins/nvim-lspconfig.lua) for more information.
+The LSP for Bicep need `dotnet cli` to run, and is started with the `cmd` property.  Please see the [`nvim-lspconfig.lua`](./lua/fredrkl/plugins/nvim-lspconfig.lua) and the [official `lsp config`](https://github.com/neovim/nvim-lspconfig/blob/master/lua/lspconfig/server_configurations/bicep.lua) for more information.
