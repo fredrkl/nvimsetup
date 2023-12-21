@@ -20,11 +20,7 @@
 
 ## Mason
 
-This plugin uses the Mason plugin to manage LSPs.
-
-### Available Mason LSP servers
-
-<https://github.com/williamboman/mason-lspconfig.nvim?tab=readme-ov-file#available-lsp-servers>
+This plugin uses the Mason plugin to manage LSPs. See the mason github repo for [available Mason LSP servers](https://github.com/williamboman/mason-lspconfig.nvim?tab=readme-ov-file#available-lsp-servers).
 
 ## Bicep
 
