@@ -13,6 +13,7 @@ Nodejs is only needed for [_GitHub Copilot_](https://github.com/features/copilot
 - Install neovim
 - Install Nerdfonts
 - Run `:checkhealth lazy` for `lazy vim` plugin verification
+- Run `:checkhealth nvim_lsp` for `nvim lsp` plugin verification
 
 ## Sources
 
