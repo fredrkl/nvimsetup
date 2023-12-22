@@ -7,12 +7,13 @@
 - [Nodejs](https://nodejs.org/en/download/)
 
 Nodejs is only needed for [_GitHub Copilot_](https://github.com/features/copilot).
-
 ## Setup
 
 - Install neovim
 - Install Nerdfonts
 - Run `:checkhealth lazy` for `lazy vim` plugin verification
+
+The copliot plugin is using the _meta key_ . If using iTerm2 on macOS, the _meta key_ is not enabled by default. To enable it, go to `Preferences > Profiles > Keys` and select `Left option key acts as +Esc`.
 
 ## Sources
 
