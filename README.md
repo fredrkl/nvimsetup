@@ -29,4 +29,6 @@ The LSP for Bicep need `dotnet cli` to run, and is started with the `cmd` proper
 
 ## GitHub Copilot
 
-GitHub Copilot is a plugin that uses AI to help you write code. To use it, you need to have a GitHub account and be logged in to GitHub in your browser. See the neovim plugin [repo](https://github.com/zbirenbaum/copilot.lua) for more information, e.g., default keybindings. The copliot plugin is using the _meta key_ . If using iTerm2 on macOS, the _meta key_ is not enabled by default. To enable it, go to `Preferences > Profiles > Keys` and select `Left option key acts as +Esc`.
+GitHub Copilot is a plugin that uses AI to help you write code. To use it, you need to have a GitHub account and be logged in to GitHub in your browser. See the neovim copliot plugin [repo](https://github.com/zbirenbaum/copilot.lua) for more information, e.g., default keybindings. The copliot plugin uses the _meta key_ by default, however that has been remapped in this settup to avoid _meta key_ usage. See the [plugin setup](./lua/fredrkl/plugins/zbirenbaum-copilot.lua) for the new keybindings.
+
+If using iTerm2 on macOS, the _meta key_ is not enabled by default. To enable it, go to `Preferences > Profiles > Keys` and select `Left option key acts as +Esc`.
