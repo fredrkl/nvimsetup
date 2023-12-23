@@ -11,3 +11,9 @@ opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
 opt.shiftwidth = 2 -- 2 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
+
+-- Move back and forth between files
+local keymap = vim.keymap
+-- Probably because mapleader is not yet set
+keymap.set("n", "<leader>nb", "<cmd>bprevious<CR>", { noremap = true })
+keymap.set("n", "<leader>nf", "<cmd>bnext<CR>", { noremap = true })
