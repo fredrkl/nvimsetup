@@ -6,7 +6,7 @@
 - [Dotnet sdk](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
 - [Nodejs](https://nodejs.org/en/download/)
 
-Nodejs is only needed for [_GitHub Copilot_](https://github.com/features/copilot).
+Nodejs is only needed for [_GitHub Copilot_](https://github.com/features/copilot). Dotnet sdk is only needed for _Bicep_.
 
 ## Setup
 
