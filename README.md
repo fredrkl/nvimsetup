@@ -14,8 +14,8 @@ Nodejs is only needed for [_GitHub Copilot_](https://github.com/features/copilot
 - Install Nerdfonts
 - Fork this repo and clone it to your `~/.config/` folder
 - Start _NeoVim_
-- Verify plugins by running the `Lazy` command
 - Run `:checkhealth lazy` for `lazy vim` plugin verification
+- Verify plugins by running the `Lazy` command
 
 ## Sources
 
