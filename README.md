@@ -6,12 +6,15 @@
 - [Dotnet sdk](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
 - [Nodejs](https://nodejs.org/en/download/)
 
-Nodejs is only needed for [_GitHub Copilot_](https://github.com/features/copilot). Dotnet sdk is only needed for _Bicep_.
+Nodejs is only needed for [_GitHub Copilot_](https://github.com/features/copilot). Dotnet sdk is only needed for the _Bicep_ LSP.
 
 ## Setup
 
 - Install neovim
 - Install Nerdfonts
+- Fork this repo and clone it to your `~/.config/` folder
+- Start _NeoVim_
+- Verify plugins by running the `Lazy` command
 - Run `:checkhealth lazy` for `lazy vim` plugin verification
 
 ## Sources
