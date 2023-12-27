@@ -38,4 +38,4 @@ If using iTerm2 on macOS, the _meta key_ is not enabled by default. To enable it
 
 ## Keymapping of the Ctrl key
 
-The Ctrl key is remapped to the `Caps Lock` key. The `Ctrl` key is used a lot in neovim, and is easier to reach the `Caps Lock` key using the home row.
+The Ctrl key is remapped to the `Caps Lock` key. The `Ctrl` key is used a lot in neovim, and it is easier to reach the `Caps Lock` key using the home row.
