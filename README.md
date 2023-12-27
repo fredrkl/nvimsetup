@@ -26,7 +26,7 @@ Nodejs is only needed for [_GitHub Copilot_](https://github.com/features/copilot
 
 This plugin uses the Mason plugin to manage LSPs. See the mason github repo for [available Mason LSP servers](https://github.com/williamboman/mason-lspconfig.nvim?tab=readme-ov-file#available-lsp-servers).
 
-## Bicep Language Server Protocol (LSP)
+### Bicep Language Server Protocol (LSP)
 
 The LSP for Bicep need `dotnet cli` to run, and is started with the `cmd` property.  Please see the [`nvim-lspconfig.lua`](./lua/fredrkl/plugins/nvim-lspconfig.lua) and the [official `lsp config`](https://github.com/neovim/nvim-lspconfig/blob/master/lua/lspconfig/server_configurations/bicep.lua) for more information.
 
