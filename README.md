@@ -36,6 +36,6 @@ GitHub Copilot is a plugin that uses AI to help you write code. To use it, you n
 
 If using iTerm2 on macOS, the _meta key_ is not enabled by default. To enable it, go to `Preferences > Profiles > Keys` and select `Left option key acts as +Esc`.
 
-## Keymapping of the Ctrl key
+## Tips
 
-The Ctrl key is remapped to the `Caps Lock` key. The `Ctrl` key is used a lot in neovim, and it is easier to reach the `Caps Lock` key using the home row.
+It can be benefitional to remap `Caps Lock` key to the `Ctrl` key. The `Ctrl` is used a lot in neovim, and it is easier to reach the `Caps Lock` key using the home row.
