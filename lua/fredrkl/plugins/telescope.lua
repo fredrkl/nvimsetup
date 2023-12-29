@@ -13,6 +13,7 @@ return {
     telescope.setup({
       defaults = {
         path_display = { "truncate " },
+        file_ignore_patterns = { ".git" },
         mappings = {
           i = {
             ["<C-k>"] = actions.move_selection_previous, -- move to prev result
