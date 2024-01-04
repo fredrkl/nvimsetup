@@ -12,6 +12,9 @@ opt.shiftwidth = 2 -- 2 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 
+-- buffers
+opt.splitright = true
+
 -- Move back and forth between files
 local keymap = vim.keymap
 -- Probably because mapleader is not yet set
