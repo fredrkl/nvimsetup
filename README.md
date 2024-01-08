@@ -5,6 +5,7 @@
 - [Nerdfonts](https://www.nerdfonts.com/font-downloads)
 - [Dotnet sdk](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
 - [Nodejs](https://nodejs.org/en/download/)
+- [RipGrep](https://github.com/BurntSushi/ripgrep)
 
 Nodejs is only needed for [_GitHub Copilot_](https://github.com/features/copilot). Dotnet sdk is only needed for the _Bicep_ LSP.
 
