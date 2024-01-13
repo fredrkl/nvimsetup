@@ -106,5 +106,32 @@ return {
       on_attach = on_attach,
       filetypes = { "terraform" },
     })
+ 
+    -- Configure servers
+    ---- Omnisharp
+    ----~ (cd $(mktemp -d) \
+    ----~ && curl -fLO https://github.com/OmniSharp/omnisharp-roslyn/releases/latest/download/omnisharp-osx-arm64-net6.0.zip \
+    ----~ && rm -rf /usr/local/bin/omnisharp \
+    ----~ && unzip -d /usr/local/bin/omnisharp omnisharp-osx-arm64-net6.0.zip)
+    local omnisharp_lsp_bin = "/usr/local/bin/omnisharp/OmniSharp.dll"
+--    vim.cmd [[ autocmd BufNewFile,BufRead *.bicep set filetype=bicep ]]
+
+    lspconfig["omnisharp"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+      cmd = { "dotnet", "/usr/local/bin/omnisharp/OmniSharp.dll"}
+    })
+
+-- https://github.com/razzmatazz/csharp-language-server
+-- This was a bit hacky. Did not work as excepted.
+--Language Server for C#.
+--csharp-ls requires the dotnet-sdk to be installed.
+--The preferred way to install csharp-ls is with dotnet tool install --global csharp-ls
+--
+--    lspconfig["csharp_ls"].setup({
+--      capabilities = capabilities,
+--      on_attach = on_attach,
+--      filetypes = { "cs" },
+--    })
   end,
 }
