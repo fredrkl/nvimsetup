@@ -12,7 +12,7 @@ return {
 
     telescope.setup({
       defaults = {
-        path_display = { "truncate " },
+        path_display = { "relative" },
         file_ignore_patterns = { ".git" },
         mappings = {
           i = {
