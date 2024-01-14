@@ -119,7 +119,7 @@ return {
     lspconfig["omnisharp"].setup({
       capabilities = capabilities,
       on_attach = on_attach,
-      cmd = { "dotnet", "/usr/local/bin/omnisharp/OmniSharp.dll"}
+      cmd = { "dotnet", omnisharp_lsp_bin }
     })
 
 -- https://github.com/razzmatazz/csharp-language-server
