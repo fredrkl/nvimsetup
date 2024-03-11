@@ -93,6 +93,13 @@ return {
       cmd = { "dotnet", bicep_lsp_bin}
     })
 
+--    lspconfig["grammarly"].setup({
+--      capabilities = capabilities,
+--      on_attach = on_attach,
+--      filetypes = { "markdown" },
+--      cmd = { "grammarly-languageserver", "--stdio" }
+--    })
+
     -- configure emmet language server
     lspconfig["emmet_ls"].setup({
       capabilities = capabilities,
@@ -106,7 +113,14 @@ return {
       on_attach = on_attach,
       filetypes = { "terraform" },
     })
- 
+
+--    -- configure ltex language server
+--    lspconfig["ltex-ls"].setup({
+--      capabilities = capabilities,
+--      on_attach = on_attach,
+--      filetypes = { "markdown" },
+--    })
+
     -- Configure servers
     ---- Omnisharp
     ----~ (cd $(mktemp -d) \
