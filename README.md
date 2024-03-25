@@ -6,6 +6,7 @@
 - [Dotnet sdk](https://dotnet.microsoft.com/en-us/download/visual-studio-sdks)
 - [Nodejs](https://nodejs.org/en/download/)
 - [RipGrep](https://github.com/BurntSushi/ripgrep)
+- [Rust Analyzer](https://rust-analyzer.github.io/manual.html)
 
 Nodejs is only needed for [_GitHub Copilot_](https://github.com/features/copilot). Dotnet sdk is only needed for the _Bicep_ LSP.
 
@@ -17,6 +18,7 @@ Nodejs is only needed for [_GitHub Copilot_](https://github.com/features/copilot
 - Start _NeoVim_
 - Run `:checkhealth lazy` for `lazy vim` plugin verification
 - Verify plugins by running the `Lazy` command
+- With rustup installed run `rustup component add rust-analyzer`
 
 ## Sources
 
