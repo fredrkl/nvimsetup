@@ -114,13 +114,13 @@ return {
       filetypes = { "terraform" },
     })
     
-    -- configure Rust analyser
-    lspconfig["rust_analyzer"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
-      filetypes = { "rust" },
-      cmd = { "rustup", "run", "stable", "rust-analyzer" }
-    })
+--    -- configure Rust analyser
+--    lspconfig["rust_analyzer"].setup({
+--      capabilities = capabilities,
+--      on_attach = on_attach,
+--      filetypes = { "rust" },
+--      cmd = { "rustup", "run", "stable", "rust-analyzer" }
+--    })
 
 --    -- configure ltex language server
 --    lspconfig["ltex-ls"].setup({
