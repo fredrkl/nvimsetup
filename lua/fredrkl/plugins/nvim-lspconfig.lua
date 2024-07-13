@@ -138,11 +138,11 @@ return {
     local omnisharp_lsp_bin = "/usr/local/bin/omnisharp/OmniSharp.dll"
 --    vim.cmd [[ autocmd BufNewFile,BufRead *.bicep set filetype=bicep ]]
 
-    lspconfig["omnisharp"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
-      cmd = { "dotnet", omnisharp_lsp_bin }
-    })
+--    lspconfig["omnisharp"].setup({
+--      capabilities = capabilities,
+--      on_attach = on_attach,
+--      cmd = { "dotnet", omnisharp_lsp_bin }
+--    })
 
 -- https://github.com/razzmatazz/csharp-language-server
 -- This was a bit hacky. Did not work as excepted.
@@ -150,10 +150,10 @@ return {
 --csharp-ls requires the dotnet-sdk to be installed.
 --The preferred way to install csharp-ls is with dotnet tool install --global csharp-ls
 --
---    lspconfig["csharp_ls"].setup({
---      capabilities = capabilities,
---      on_attach = on_attach,
---      filetypes = { "cs" },
---    })
+lspconfig["csharp_ls"].setup({
+  capabilities = capabilities,
+  on_attach = on_attach,
+  filetypes = { "cs" },
+})
   end,
 }
