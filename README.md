@@ -7,6 +7,7 @@
 - [Nodejs](https://nodejs.org/en/download/)
 - [RipGrep](https://github.com/BurntSushi/ripgrep)
 - [Rust Analyzer](https://rust-analyzer.github.io/manual.html)
+- [Python and pip](https://www.python.org/downloads/)
 
 Nodejs is only needed for [_GitHub Copilot_](https://github.com/features/copilot). Dotnet sdk is only needed for the _Bicep_ LSP.
 
@@ -42,6 +43,10 @@ If using iTerm2 on macOS, the _meta key_ is not enabled by default. To enable it
 ## Tmux
 
 This neovim setup works well with [tmux](https://github.com/tmux/tmux/wiki). I have created a [tmux setup](https://github.com/tmux/tmux/wiki) that works well with this neovim setup.
+
+## Rest
+
+In order to get `Rest.nvim` to work, you need to have `Python` installed.
 
 ## Tips
 
