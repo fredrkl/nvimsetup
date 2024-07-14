@@ -13,7 +13,7 @@ return {
     telescope.setup({
       defaults = {
         path_display = { "relative" },
-        file_ignore_patterns = { ".git" },
+        file_ignore_patterns = { ".git", "obj/*", "bin/*" },
         mappings = {
           i = {
             ["<C-k>"] = actions.move_selection_previous, -- move to prev result
