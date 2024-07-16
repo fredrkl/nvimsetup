@@ -1,1 +1,2 @@
+# Fetch a random cat fact from the Cat Fact API
 GET https://catfact.ninja/fact
