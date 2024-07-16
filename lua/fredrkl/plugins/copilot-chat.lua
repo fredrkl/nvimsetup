@@ -16,6 +16,16 @@ return {
       { "<leader>at", "<cmd>CopilotChatTests<cr>", desc = "CopilotChat - Generate tests" },
       { "<leader>ar", "<cmd>CopilotChatReview<cr>", desc = "CopilotChat - Review code" },
       { "<leader>av", "<cmd>CopilotChatToggle<cr>", desc = "CopilotChat - Toggle" },
+      {
+        "<leader>ai",
+        function()
+          local input = vim.fn.input("Ask Copilot: ")
+          if input ~= "" then
+            vim.cmd("CopilotChat " .. input)
+          end
+        end,
+        desc = "CopilotChat - Ask input",
+      },
     }
     -- See Commands section for default commands if you want to lazy load on them
   },
