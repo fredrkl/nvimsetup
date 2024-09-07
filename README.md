@@ -42,7 +42,7 @@ If using iTerm2 on macOS, the _meta key_ is not enabled by default. To enable it
 
 ## Tmux
 
-This neovim setup works well with [tmux](https://github.com/tmux/tmux/wiki). I have created a [tmux setup](https://github.com/tmux/tmux/wiki) that works well with this neovim setup.
+This neovim setup works well with [tmux](https://github.com/tmux/tmux/wiki). I have created a [tmux setup](https://github.com/fredrkl/tmux-conf) that works well with this neovim setup.
 
 ## Rest
 
