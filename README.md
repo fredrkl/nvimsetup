@@ -48,6 +48,16 @@ This neovim setup works well with [tmux](https://github.com/tmux/tmux/wiki). I h
 
 In order to get `Rest.nvim` to work, you need to have `Python` installed.
 
+## Throubleshooting
+
+If the markdown preview is not working, try to run the following in its plugin folder.
+
+```bash
+yarn install
+```
+
+The plugin folder is located in `~/.local/share/nvim/lazy/markdown-preview.nvim`.
+
 ## Tips
 
 It can be benefitional to remap `Caps Lock` key to the `Ctrl` key. The `Ctrl` is used a lot in neovim, and it is easier to reach the `Caps Lock` key using the home row.
