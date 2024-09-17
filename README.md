@@ -34,6 +34,26 @@ This plugin uses the Mason plugin to manage LSPs. See the mason github repo for 
 
 The LSP for Bicep need `dotnet cli` to run, and is started with the `cmd` property.  Please see the [`nvim-lspconfig.lua`](./lua/fredrkl/plugins/nvim-lspconfig.lua) and the [official `lsp config`](https://github.com/neovim/nvim-lspconfig/blob/master/lua/lspconfig/server_configurations/bicep.lua) for more information.
 
+## Debugger
+
+To setup debugger for .net we need the `netcoredbg` tool. Install it by following the steps:
+
+```bash
+curl -L https://github.com/Samsung/netcoredbg/releases/download/latest/netcoredbg-osx-amd64.tar.gz -o netcoredbg-osx-amd64.tar.gz
+```
+
+```bash
+tar -xvzf netcoredbg-osx-amd64.tar.gz
+```
+
+```bash
+sudo mv netcoredbg /usr/local/bin
+```
+
+```bash
+chmod +x /usr/local/bin/netcoredbg/netcoredbg
+```
+
 ## GitHub Copilot
 
 GitHub Copilot is a plugin that uses AI to help you write code. To use it, you need to have a GitHub account and be logged in to GitHub in your browser. See the neovim copliot plugin [repo](https://github.com/zbirenbaum/copilot.lua) for more information, e.g., default keybindings. The copliot plugin uses the _meta key_ by default, however that has been remapped in this settup to avoid _meta key_ usage. See the [plugin setup](./lua/fredrkl/plugins/zbirenbaum-copilot.lua) for the new keybindings.
@@ -47,6 +67,14 @@ This neovim setup works well with [tmux](https://github.com/tmux/tmux/wiki). I h
 ## Rest
 
 In order to get `Rest.nvim` to work, you need to have `Python` installed.
+
+## RipGrep
+
+In order to use the grep telescope file search you need to install ripgrep:
+
+```bash
+brew install ripgrep
+```
 
 ## Throubleshooting
 
