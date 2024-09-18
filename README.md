@@ -36,22 +36,17 @@ The LSP for Bicep need `dotnet cli` to run, and is started with the `cmd` proper
 
 ## Debugger
 
-To setup debugger for .net we need the `netcoredbg` tool. Install it by following the steps:
+To setup debugger for .net we need the `netcoredbg` tool. Unfortunately, the `netocredbg` tool does not have a native M Chip version for macOS. To install the `netcoredbg` tool, follow the instructions below.
 
 ```bash
-curl -L https://github.com/Samsung/netcoredbg/releases/download/latest/netcoredbg-osx-amd64.tar.gz -o netcoredbg-osx-amd64.tar.gz
-```
-
-```bash
-tar -xvzf netcoredbg-osx-amd64.tar.gz
-```
-
-```bash
-sudo mv netcoredbg /usr/local/bin
-```
-
-```bash
-chmod +x /usr/local/bin/netcoredbg/netcoredbg
+brew install cmake
+xcode-select --install
+git clone git@github.com:Samsung/netcoredbg.git $HOME/repos/netcoredbg
+cd $HOME/repos/netcoredbg
+mkdir build
+cd build
+mkdir /usr/local/bin/netcoredbg
+CC=clang CXX=clang++ cmake -DCMAKE_INSTALL_PREFIX=/usr/local/bin/netcoredbg
 ```
 
 ## GitHub Copilot

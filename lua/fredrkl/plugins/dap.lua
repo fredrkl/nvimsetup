@@ -25,8 +25,8 @@ return {
     -- Shortcuts
     --local keymap = vim.keymap -- for conciseness
     -- Toggle Breakpoint
-    vim.api.nvim_set_keymap('n', '<leader>db', "<cmd>lua require'dap'.toggle_breakpoint()<CR>", { noremap = true, silent = true, desc = "Toggle breakpoint" })
-    vim.api.nvim_set_keymap('n', '<leader>dh', "<cmd>lua require'dap'.continue()<CR>", { noremap = true, silent = true, desc = "Start/Continue" })
+    vim.api.nvim_set_keymap('n', '<leader>bb', "<cmd>lua require'dap'.toggle_breakpoint()<CR>", { noremap = true, silent = true, desc = "Toggle breakpoint" })
+    vim.api.nvim_set_keymap('n', '<leader>bh', "<cmd>lua require'dap'.continue()<CR>", { noremap = true, silent = true, desc = "Start/Continue" })
 
     -- Define local mappings for debugging
     --local dap = require('dap')

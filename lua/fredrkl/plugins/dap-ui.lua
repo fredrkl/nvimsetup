@@ -21,9 +21,9 @@ return {
     end
 
     --- Toggle DAP UI
-    vim.api.nvim_set_keymap('n', '<leader>du', "<cmd>lua require'dapui'.toggle()<CR>", { noremap = true, silent = true, desc = "Toggle DAP UI" })
+    vim.api.nvim_set_keymap('n', '<leader>bu', "<cmd>lua require'dapui'.toggle()<CR>", { noremap = true, silent = true, desc = "Toggle DAP UI" })
 
     -- Evaluate Expression
-    vim.api.nvim_set_keymap('n', '<leader>de', "<cmd>lua require'dapui'.eval()<CR>", { noremap = true, silent = true, desc = "Evaluate Expression"})
+    vim.api.nvim_set_keymap('n', '<leader>be', "<cmd>lua require'dapui'.eval()<CR>", { noremap = true, silent = true, desc = "Evaluate Expression"})
   end,
 }
