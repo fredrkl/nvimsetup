@@ -4,7 +4,7 @@ return {
   dependencies = { 'nvim-lualine/lualine.nvim' },
   config = function()
     require('nomodoro').setup({
-      work_time = 25,
+      work_time = 30,
       short_break_time = 5,
       long_break_time = 15,
       break_cycle = 4,
