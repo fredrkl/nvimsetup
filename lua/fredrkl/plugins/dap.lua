@@ -11,6 +11,12 @@ return {
       args = { '--interpreter=vscode' },
     }
 
+    dap.adapters.netcoredbg = {
+      type = 'executable',
+      command = '/usr/local/bin/netcoredbg/netcoredbg',
+      args = { '--interpreter=vscode' },
+    }
+
     dap.configurations.cs = {
       {
         type = 'coreclr',
