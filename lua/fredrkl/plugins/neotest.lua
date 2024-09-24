@@ -39,12 +39,12 @@ return {
       }
     })
 
-    vim.api.nvim_set_keymap('n', '<leader>tn', ':lua require("neotest").run.run()<CR>', { noremap = true, silent = true, desc = "Run all tests" })
-    vim.api.nvim_set_keymap('n', '<leader>tf', ':lua require("neotest").run.run(vim.fn.expand("%"))<CR>', { noremap = true, silent = true, desc = "Run tests in current file" })
+    vim.api.nvim_set_keymap('n', '<leader>tt', ':lua require("neotest").run.run()<CR>', { noremap = true, silent = true, desc = "Run current test" })
+    vim.api.nvim_set_keymap('n', '<leader>tf', ':lua require("neotest").run.run(vim.fn.expand("%"))<CR>', { noremap = true, silent = true, desc = "Run all tests in current file" })
     vim.api.nvim_set_keymap('n', '<leader>ts', ':lua require("neotest").run.stop()<CR>', { noremap = true, silent = true, desc = "Stop test run" })
-    vim.api.nvim_set_keymap('n', '<leader>to', ':lua require("neotest").summary.open()<CR>', { noremap = true, silent = true, desc = "Open test output" })
-    vim.api.nvim_set_keymap('n', '<leader>tc', ':lua require("neotest").summary.close()<CR>', { noremap = true, silent = true, desc = "Close test output" })
-    vim.api.nvim_set_keymap('n', '<leader>tt', ':lua require("neotest").summary.toggle()<CR>', { noremap = true, silent = true, desc = "Toggle test output" })
+--    vim.api.nvim_set_keymap('n', '<leader>to', ':lua require("neotest").summary.open()<CR>', { noremap = true, silent = true, desc = "Open test output" })
+--    vim.api.nvim_set_keymap('n', '<leader>tc', ':lua require("neotest").summary.close()<CR>', { noremap = true, silent = true, desc = "Close test output" })
+    vim.api.nvim_set_keymap('n', '<leader>tg', ':lua require("neotest").summary.toggle()<CR>', { noremap = true, silent = true, desc = "Toggle test output" })
     vim.api.nvim_set_keymap('n', '<leader>tnf', ':lua require("neotest").jump.next({ status = "failed" })<CR>', { noremap = true, silent = true, desc = "Jump to next failed test" })
     vim.api.nvim_set_keymap('n', '<leader>tpf', ':lua require("neotest").jump.prev({ status = "failed" })<CR>', { noremap = true, silent = true, desc = "Jump to previous failed test" })
     vim.api.nvim_set_keymap('n', '<leader>to', ':lua require("neotest").output.open({ enter = true })<CR>', { noremap = true, silent = true, desc = "Open test output" })
