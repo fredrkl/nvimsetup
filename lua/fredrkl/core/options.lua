@@ -15,6 +15,9 @@ opt.autoindent = true -- copy indent from current line when starting new one
 -- buffers
 opt.splitright = true
 
+--copy
+opt.clipboard = 'unnamedplus'
+
 -- Move back and forth between files
 local keymap = vim.keymap
 -- Probably because mapleader is not yet set
