@@ -1,0 +1,15 @@
+{
+  "branches": ["main"],
+  "plugins": [
+    "semantic-release-gitmoji",
+    "@semantic-release/changelog",
+    "@semantic-release/github",
+    "@semantic-release/git",
+    [
+      "@semantic-release/exec",
+      {
+        "successCmd": "echo 'nextRelease.version=${nextRelease.version}' >> $GITHUB_ENV"
+      }
+    ]
+  ]
+}
