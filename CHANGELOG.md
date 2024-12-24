@@ -1,3 +1,8 @@
+# [v1.1.0](https://github.com/fredrkl/nvimsetup/compare/v1.0.0...v1.1.0) (2024-12-22)
+
+## ✨ New Features
+- [`bb212e7`](https://github.com/fredrkl/nvimsetup/commit/bb212e7)  Diffview shortcuts
+
 # v1.0.0 (2024-12-11)
 
 ## ✨ New Features
