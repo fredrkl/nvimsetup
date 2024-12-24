@@ -84,3 +84,7 @@ The plugin folder is located in `~/.local/share/nvim/lazy/markdown-preview.nvim`
 ## Tips
 
 It can be beneficial to remap `Caps Lock` key to the `Ctrl` key. The `Ctrl` is used a lot in neovim, and it is easier to reach the `Caps Lock` key using the home row.
+
+## CHANGELOG
+
+- <https://github.com/fredrkl/nvimsetup/blob/main/CHANGELOG.md>
