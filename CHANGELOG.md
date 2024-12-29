@@ -1,3 +1,8 @@
+# [v1.2.0](https://github.com/fredrkl/nvimsetup/compare/v1.1.0...v1.2.0) (2024-12-29)
+
+## ✨ New Features
+- [`185f640`](https://github.com/fredrkl/nvimsetup/commit/185f640)  Marp
+
 # [v1.1.0](https://github.com/fredrkl/nvimsetup/compare/v1.0.0...v1.1.0) (2024-12-22)
 
 ## ✨ New Features
