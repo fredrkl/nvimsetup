@@ -1,3 +1,8 @@
+# [v1.3.0](https://github.com/fredrkl/nvimsetup/compare/v1.2.0...v1.3.0) (2025-01-21)
+
+## ✨ New Features
+- [`91bfe73`](https://github.com/fredrkl/nvimsetup/commit/91bfe73)  File history shortcuts
+
 # [v1.2.0](https://github.com/fredrkl/nvimsetup/compare/v1.1.0...v1.2.0) (2024-12-29)
 
 ## ✨ New Features
