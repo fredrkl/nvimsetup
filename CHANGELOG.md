@@ -1,3 +1,8 @@
+# [v1.4.0](https://github.com/fredrkl/nvimsetup/compare/v1.3.0...v1.4.0) (2025-02-27)
+
+## ✨ New Features
+- [`1379c71`](https://github.com/fredrkl/nvimsetup/commit/1379c71)  Base64 helper
+
 # [v1.3.0](https://github.com/fredrkl/nvimsetup/compare/v1.2.0...v1.3.0) (2025-01-21)
 
 ## ✨ New Features
