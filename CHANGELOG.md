@@ -1,3 +1,8 @@
+# [v1.5.0](https://github.com/fredrkl/nvimsetup/compare/v1.4.0...v1.5.0) (2025-04-27)
+
+## ✨ New Features
+- [`8c21450`](https://github.com/fredrkl/nvimsetup/commit/8c21450)  Better debugging keymappings
+
 # [v1.4.0](https://github.com/fredrkl/nvimsetup/compare/v1.3.0...v1.4.0) (2025-02-27)
 
 ## ✨ New Features
