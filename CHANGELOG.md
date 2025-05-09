@@ -1,3 +1,8 @@
+# [v1.6.0](https://github.com/fredrkl/nvimsetup/compare/v1.5.0...v1.6.0) (2025-05-09)
+
+## ✨ New Features
+- [`3b7d656`](https://github.com/fredrkl/nvimsetup/commit/3b7d656)  Cursor line
+
 # [v1.5.0](https://github.com/fredrkl/nvimsetup/compare/v1.4.0...v1.5.0) (2025-04-27)
 
 ## ✨ New Features
