@@ -93,12 +93,18 @@ return {
       cmd = { "dotnet", bicep_lsp_bin}
     })
 
---    lspconfig["grammarly"].setup({
---      capabilities = capabilities,
---      on_attach = on_attach,
---      filetypes = { "markdown" },
---      cmd = { "grammarly-languageserver", "--stdio" }
---    })
+    lspconfig["lua_ls"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+      filetypes = { "lua"},
+      settings = {
+        Lua = {
+          diagnostics = {
+            globals = { 'vim' }, -- make lua-lsp aware of vim global
+          }
+        }
+      }
+    })
 
     -- configure emmet language server
     lspconfig["emmet_ls"].setup({
