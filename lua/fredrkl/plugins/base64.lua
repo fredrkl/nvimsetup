@@ -1,5 +1,5 @@
 return {
-  { 
+  {
     "moevis/base64.nvim",
     config = function()
       vim.api.nvim_set_keymap('n', '<leader>6', ':Base64Decode<cr>', {})
