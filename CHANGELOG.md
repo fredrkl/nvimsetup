@@ -1,3 +1,8 @@
+# [v1.7.0](https://github.com/fredrkl/nvimsetup/compare/v1.6.0...v1.7.0) (2025-05-12)
+
+## ✨ New Features
+- [`5694c40`](https://github.com/fredrkl/nvimsetup/commit/5694c40)  Lua lsp
+
 # [v1.6.0](https://github.com/fredrkl/nvimsetup/compare/v1.5.0...v1.6.0) (2025-05-09)
 
 ## ✨ New Features
