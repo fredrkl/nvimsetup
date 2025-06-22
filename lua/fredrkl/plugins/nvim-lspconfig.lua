@@ -18,7 +18,12 @@ return {
     'folke/neodev.nvim',
   },
   config = function()
-    require("mason").setup()
+    require("mason").setup({
+      registries = {
+        "github:mason-org/mason-registry",
+        "github:Crashdummyy/mason-registry",
+      },
+    })
     require("fidget").setup({})
 
     -- import lspconfig plugin
@@ -30,7 +35,7 @@ return {
     local keymap = vim.keymap -- for conciseness
 
     local opts = { noremap = true, silent = true }
-    local on_attach = function(client, bufnr)
+    local on_attach = function(_, bufnr)
       opts.buffer = bufnr
 
       -- set keybinds
@@ -141,7 +146,7 @@ return {
     ----~ && curl -fLO https://github.com/OmniSharp/omnisharp-roslyn/releases/latest/download/omnisharp-osx-arm64-net6.0.zip \
     ----~ && rm -rf /usr/local/bin/omnisharp \
     ----~ && unzip -d /usr/local/bin/omnisharp omnisharp-osx-arm64-net6.0.zip)
-    local omnisharp_lsp_bin = "/usr/local/bin/omnisharp/OmniSharp.dll"
+--    local omnisharp_lsp_bin = "/usr/local/bin/omnisharp/OmniSharp.dll"
 --    vim.cmd [[ autocmd BufNewFile,BufRead *.bicep set filetype=bicep ]]
 
 --    lspconfig["omnisharp"].setup({
@@ -156,10 +161,29 @@ return {
 --csharp-ls requires the dotnet-sdk to be installed.
 --The preferred way to install csharp-ls is with dotnet tool install --global csharp-ls
 --
-lspconfig["csharp_ls"].setup({
-  capabilities = capabilities,
-  on_attach = on_attach,
-  filetypes = { "cs" },
+--lspconfig["csharp_ls"].setup({
+--  capabilities = capabilities,
+--  on_attach = on_attach,
+--  filetypes = { "cs" },
+--})
+lspconfig["roslyn"].setup({
+    on_attach = function()
+        print("This will run when the server attaches!")
+    end,
+    settings = {
+        ["csharp|inlay_hints"] = {
+            csharp_enable_inlay_hints_for_implicit_object_creation = true,
+            csharp_enable_inlay_hints_for_implicit_variable_types = true,
+        },
+        ["csharp|code_lens"] = {
+            dotnet_enable_references_code_lens = true,
+        },
+    },
 })
+--lspconfig["roslyn"].setup({
+--  capabilities = capabilities,
+--  on_attach = on_attach,
+--  filetypes = { "cs" },
+--})
   end,
 }
