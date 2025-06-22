@@ -1,3 +1,8 @@
+# [v1.9.0](https://github.com/fredrkl/nvimsetup/compare/v1.8.0...v1.9.0) (2025-06-22)
+
+## ✨ New Features
+- [`16e3863`](https://github.com/fredrkl/nvimsetup/commit/16e3863)  Roslyn LSP
+
 # [v1.8.0](https://github.com/fredrkl/nvimsetup/compare/v1.7.0...v1.8.0) (2025-06-21)
 
 ## ✨ New Features
