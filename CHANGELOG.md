@@ -1,3 +1,8 @@
+# [v1.8.0](https://github.com/fredrkl/nvimsetup/compare/v1.7.0...v1.8.0) (2025-06-21)
+
+## ✨ New Features
+- [`b96f4d4`](https://github.com/fredrkl/nvimsetup/commit/b96f4d4)  Better diagnostic shortcuts
+
 # [v1.7.0](https://github.com/fredrkl/nvimsetup/compare/v1.6.0...v1.7.0) (2025-05-12)
 
 ## ✨ New Features
