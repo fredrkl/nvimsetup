@@ -1,3 +1,8 @@
+# [v1.10.0](https://github.com/fredrkl/nvimsetup/compare/v1.9.0...v1.10.0) (2025-06-24)
+
+## ✨ New Features
+- [`e2f9b61`](https://github.com/fredrkl/nvimsetup/commit/e2f9b61)  Roslyn keybindings
+
 # [v1.9.0](https://github.com/fredrkl/nvimsetup/compare/v1.8.0...v1.9.0) (2025-06-22)
 
 ## ✨ New Features
