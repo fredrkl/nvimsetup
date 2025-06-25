@@ -55,6 +55,9 @@ vim.api.nvim_create_autocmd('FileType', {
       opts.desc = "Show diagnostic messages"
       keymap.set("n", "gd", vim.diagnostic.open_float, opts) -- show lsp type definitions
 
+      opts.desc = "Show all diagnostic messages"
+      keymap.set("n", "gad","<cmd>Telescope diagnostics<CR>", opts) -- show lsp type definitions
+
       opts.desc = "See available code actions"
       keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, opts) -- see available code actions, in visual mode will apply to selection
 
