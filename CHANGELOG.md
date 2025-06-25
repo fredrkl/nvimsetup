@@ -1,3 +1,9 @@
+# [v1.11.0](https://github.com/fredrkl/nvimsetup/compare/v1.10.0...v1.11.0) (2025-06-25)
+
+## ✨ New Features
+- [`b7cae3d`](https://github.com/fredrkl/nvimsetup/commit/b7cae3d)  Show diagnostic in Roslyn 
+- [`5459a9a`](https://github.com/fredrkl/nvimsetup/commit/5459a9a)  Better diagnostic keybinding
+
 # [v1.10.0](https://github.com/fredrkl/nvimsetup/compare/v1.9.0...v1.10.0) (2025-06-24)
 
 ## ✨ New Features
