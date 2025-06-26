@@ -1,3 +1,8 @@
+# [v1.12.0](https://github.com/fredrkl/nvimsetup/compare/v1.11.0...v1.12.0) (2025-06-25)
+
+## ✨ New Features
+- [`e8d6e75`](https://github.com/fredrkl/nvimsetup/commit/e8d6e75)  All diagnostics message
+
 # [v1.11.0](https://github.com/fredrkl/nvimsetup/compare/v1.10.0...v1.11.0) (2025-06-25)
 
 ## ✨ New Features
