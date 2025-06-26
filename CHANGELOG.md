@@ -1,3 +1,8 @@
+# [v1.12.2](https://github.com/fredrkl/nvimsetup/compare/v1.12.1...v1.12.2) (2025-06-26)
+
+## 🐛 Bug Fixes
+- [`7afcd94`](https://github.com/fredrkl/nvimsetup/commit/7afcd94)  No need to have lazy-lock under vc
+
 # [v1.12.1](https://github.com/fredrkl/nvimsetup/compare/v1.12.0...v1.12.1) (2025-06-26)
 
 ## 🐛 Bug Fixes
