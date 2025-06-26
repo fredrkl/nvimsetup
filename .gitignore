@@ -1,3 +1,4 @@
 plugin/**
 .commit-template.txt
 marpdemo/*
+lazy-lock.json
