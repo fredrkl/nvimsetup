@@ -1,3 +1,8 @@
+# [v1.12.1](https://github.com/fredrkl/nvimsetup/compare/v1.12.0...v1.12.1) (2025-06-26)
+
+## 🐛 Bug Fixes
+- [`db6199c`](https://github.com/fredrkl/nvimsetup/commit/db6199c)  Gitsigns and diffview keybindings overlap
+
 # [v1.12.0](https://github.com/fredrkl/nvimsetup/compare/v1.11.0...v1.12.0) (2025-06-25)
 
 ## ✨ New Features
