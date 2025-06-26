@@ -130,67 +130,20 @@ return {
       filetypes = { "terraform" },
     })
 
---    -- configure Rust analyser
---    lspconfig["rust_analyzer"].setup({
---      capabilities = capabilities,
---      on_attach = on_attach,
---      filetypes = { "rust" },
---      cmd = { "rustup", "run", "stable", "rust-analyzer" }
---    })
-
---    -- configure ltex language server
---    lspconfig["ltex-ls"].setup({
---      capabilities = capabilities,
---      on_attach = on_attach,
---      filetypes = { "markdown" },
---    })
-
-    -- Configure servers
-    ---- Omnisharp
-    ----~ (cd $(mktemp -d) \
-    ----~ && curl -fLO https://github.com/OmniSharp/omnisharp-roslyn/releases/latest/download/omnisharp-osx-arm64-net6.0.zip \
-    ----~ && rm -rf /usr/local/bin/omnisharp \
-    ----~ && unzip -d /usr/local/bin/omnisharp omnisharp-osx-arm64-net6.0.zip)
---    local omnisharp_lsp_bin = "/usr/local/bin/omnisharp/OmniSharp.dll"
---    vim.cmd [[ autocmd BufNewFile,BufRead *.bicep set filetype=bicep ]]
-
---    lspconfig["omnisharp"].setup({
---      capabilities = capabilities,
---      on_attach = on_attach,
---      cmd = { "dotnet", omnisharp_lsp_bin }
---    })
-
--- https://github.com/razzmatazz/csharp-language-server
--- This was a bit hacky. Did not work as excepted.
---Language Server for C#.
---csharp-ls requires the dotnet-sdk to be installed.
---The preferred way to install csharp-ls is with dotnet tool install --global csharp-ls
---
---lspconfig["csharp_ls"].setup({
---  capabilities = capabilities,
---  on_attach = on_attach,
---  filetypes = { "cs" },
---})
---
--- This does not work as lspconfig does not support the roslyn server.
---lspconfig["roslyn"].setup({
---    on_attach = function()
---        print("This will run when the server attaches!")
---    end,
---    settings = {
---        ["csharp|inlay_hints"] = {
---            csharp_enable_inlay_hints_for_implicit_object_creation = true,
---            csharp_enable_inlay_hints_for_implicit_variable_types = true,
---        },
---        ["csharp|code_lens"] = {
---            dotnet_enable_references_code_lens = true,
---        },
---    },
---})
---lspconfig["roslyn"].setup({
---  capabilities = capabilities,
---  on_attach = on_attach,
---  filetypes = { "cs" },
---})
+    -- YAML Language Server
+    lspconfig["yamlls"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+      filetypes = { "yaml" },
+      settings = {
+        yaml = {
+          schemas = {
+            ["https://raw.githubusercontent.com/datreeio/CRDs-catalog/refs/heads/main/monitoring.coreos.com/prometheusrule_v1.json"] = "prometheusrules*.yaml",
+          },
+          validate = true, -- enable validation
+          completion = true, -- enable completion
+        },
+      },
+    })
   end,
 }
