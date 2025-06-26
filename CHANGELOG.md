@@ -1,3 +1,8 @@
+# [v1.13.0](https://github.com/fredrkl/nvimsetup/compare/v1.12.2...v1.13.0) (2025-06-26)
+
+## ✨ New Features
+- [`4e87dd4`](https://github.com/fredrkl/nvimsetup/commit/4e87dd4)  YAML LSP
+
 # [v1.12.2](https://github.com/fredrkl/nvimsetup/compare/v1.12.1...v1.12.2) (2025-06-26)
 
 ## 🐛 Bug Fixes
