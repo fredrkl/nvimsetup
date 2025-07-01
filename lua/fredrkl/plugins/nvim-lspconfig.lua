@@ -139,6 +139,8 @@ return {
         yaml = {
           schemas = {
             ["https://raw.githubusercontent.com/datreeio/CRDs-catalog/refs/heads/main/monitoring.coreos.com/prometheusrule_v1.json"] = "prometheusrules*.yaml",
+            ["https://raw.githubusercontent.com/datreeio/CRDs-catalog/refs/heads/main/monitoring.coreos.com/alertmanager_v1.json"] = "alertmanager*.yaml",
+            ["https://raw.githubusercontent.com/datreeio/CRDs-catalog/refs/heads/main/monitoring.coreos.com/alertmanagerconfig_v1alpha1.json"] = "alertconfig*.yaml",
           },
           validate = true, -- enable validation
           completion = true, -- enable completion
