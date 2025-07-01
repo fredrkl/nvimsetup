@@ -1,3 +1,8 @@
+# [v1.14.0](https://github.com/fredrkl/nvimsetup/compare/v1.13.0...v1.14.0) (2025-07-01)
+
+## ✨ New Features
+- [`80afb71`](https://github.com/fredrkl/nvimsetup/commit/80afb71)  More yaml lsp schemas
+
 # [v1.13.0](https://github.com/fredrkl/nvimsetup/compare/v1.12.2...v1.13.0) (2025-06-26)
 
 ## ✨ New Features
