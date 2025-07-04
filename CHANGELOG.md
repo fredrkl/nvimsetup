@@ -1,3 +1,8 @@
+# [v1.15.0](https://github.com/fredrkl/nvimsetup/compare/v1.14.0...v1.15.0) (2025-07-04)
+
+## ✨ New Features
+- [`34c0a7d`](https://github.com/fredrkl/nvimsetup/commit/34c0a7d)  Undo tree
+
 # [v1.14.0](https://github.com/fredrkl/nvimsetup/compare/v1.13.0...v1.14.0) (2025-07-01)
 
 ## ✨ New Features
