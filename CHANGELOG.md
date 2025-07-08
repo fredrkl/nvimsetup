@@ -1,3 +1,8 @@
+# [v1.16.0](https://github.com/fredrkl/nvimsetup/compare/v1.15.0...v1.16.0) (2025-07-08)
+
+## ✨ New Features
+- [`e17c1b3`](https://github.com/fredrkl/nvimsetup/commit/e17c1b3)  Colorcolumn on markdown files
+
 # [v1.15.0](https://github.com/fredrkl/nvimsetup/compare/v1.14.0...v1.15.0) (2025-07-04)
 
 ## ✨ New Features
