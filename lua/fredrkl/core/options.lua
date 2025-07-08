@@ -73,3 +73,10 @@ vim.api.nvim_create_autocmd('FileType', {
       setup_global_keymaps()
   end
 })
+
+vim.api.nvim_create_autocmd('FileType', {
+  pattern = 'markdown',
+  callback = function()
+    vim.opt_local.colorcolumn = "80" -- set local colorcolumn to 80 for markdown files
+  end
+})
