@@ -1,3 +1,8 @@
+# [v1.17.0](https://github.com/fredrkl/nvimsetup/compare/v1.16.0...v1.17.0) (2025-07-10)
+
+## ✨ New Features
+- [`63329cd`](https://github.com/fredrkl/nvimsetup/commit/63329cd)  Markdown LSP
+
 # [v1.16.0](https://github.com/fredrkl/nvimsetup/compare/v1.15.0...v1.16.0) (2025-07-08)
 
 ## ✨ New Features
