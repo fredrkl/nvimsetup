@@ -40,6 +40,14 @@ For the C# LSP, I use the [roslyn.vim](https://github.com/seblyng/roslyn.nvim) p
 
 The LSP for Bicep need `dotnet cli` to run, and is started with the `cmd` property.  Please see the [`nvim-lspconfig.lua`](./lua/fredrkl/plugins/nvim-lspconfig.lua) and the [official `lsp config`](https://github.com/neovim/nvim-lspconfig/blob/master/lua/lspconfig/server_configurations/bicep.lua) for more information.
 
+### .NET LSP
+
+We are using the `roslyn.nvim` plugin for .NET LSP support. The plugin is configured in the [`nvim-lspconfig.lua`](./lua/fredrkl/plugins/nvim-lspconfig.lua) file. The plugin uses the `netcoredbg` tool for debugging, which is installed in the `Debugger` section below.
+
+Remember to install the `roslyn` LSP through the Mast plugin:
+
+`:MasonInstall roslyn`
+
 ## Debugger
 
 To setup debugger for .net we need the `netcoredbg` tool. Unfortunately, the `netocredbg` tool does not have a native M Chip version for macOS. To install the `netcoredbg` tool, follow the instructions below.
