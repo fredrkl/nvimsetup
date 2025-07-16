@@ -1,3 +1,8 @@
+# [v1.18.0](https://github.com/fredrkl/nvimsetup/compare/v1.17.0...v1.18.0) (2025-07-16)
+
+## ✨ New Features
+- [`34ab02e`](https://github.com/fredrkl/nvimsetup/commit/34ab02e)  Linting support
+
 # [v1.17.0](https://github.com/fredrkl/nvimsetup/compare/v1.16.0...v1.17.0) (2025-07-10)
 
 ## ✨ New Features
