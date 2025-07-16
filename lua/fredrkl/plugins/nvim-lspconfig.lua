@@ -16,6 +16,7 @@ return {
 
     -- Additional lua configuration, makes nvim stuff amazing!
     'folke/neodev.nvim',
+     'mfussenegger/nvim-lint', -- nvim-lint for linters
   },
   config = function()
     require("mason").setup({
@@ -152,6 +153,20 @@ return {
       capabilities = capabilities,
       on_attach = on_attach,
       filetypes = { "markdown" },
+    })
+    -- Setup nvim-lint for linters
+    local lint = require("lint")
+    lint.linters_by_ft = {
+      lua = { "luacheck" },       -- example: Lua linter
+      markdown = { "markdownlint-cli2" }, -- add markdown linter
+      -- Add more filetypes and linters as needed
+    }
+
+    -- Optionally, run lint on BufWritePost
+    vim.api.nvim_create_autocmd({ "BufWritePost" }, {
+      callback = function()
+        lint.try_lint()
+      end,
     })
   end,
 }
