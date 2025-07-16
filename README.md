@@ -31,20 +31,32 @@ the _Bicep_ LSP.
 
 ## Mason Language Server Protocol (LSP) plugin manager
 
-This plugin uses the Mason plugin to manage LSPs. See the mason github repo for [available Mason LSP servers](https://github.com/williamboman/mason-lspconfig.nvim?tab=readme-ov-file#available-lsp-servers).
+This plugin uses the Mason plugin to manage LSPs. See the mason github repo for
+[available Mason LSP
+servers](https://github.com/williamboman/mason-lspconfig.nvim?tab=readme-ov-file#available-lsp-servers).
 
-For the C# LSP, I use the [roslyn.vim](https://github.com/seblyng/roslyn.nvim) plugin. The Mason plugin is extended with the additional registries:
+For the C# LSP, I use the [roslyn.vim](https://github.com/seblyng/roslyn.nvim)
+plugin. The Mason plugin is extended with the additional registries:
 
 - "github:mason-org/mason-registry"
 - "github:Crashdummyy/mason-registry"
 
 ### Bicep Language Server Protocol (LSP)
 
-The LSP for Bicep need `dotnet cli` to run, and is started with the `cmd` property.  Please see the [`nvim-lspconfig.lua`](./lua/fredrkl/plugins/nvim-lspconfig.lua) and the [official `lsp config`](https://github.com/neovim/nvim-lspconfig/blob/master/lua/lspconfig/server_configurations/bicep.lua) for more information.
+The LSP for Bicep need `dotnet cli` to run, and is started with the `cmd`
+property.  Please see the
+[`nvim-lspconfig.lua`](./lua/fredrkl/plugins/nvim-lspconfig.lua) and the
+[official `lsp
+config`](https://github.com/neovim/nvim-lspconfig/blob/master/lua/lspconfig/server_configurations/bicep.lua)
+for more information.
 
 ### .NET LSP
 
-We are using the `roslyn.nvim` plugin for .NET LSP support. The plugin is configured in the [`nvim-lspconfig.lua`](./lua/fredrkl/plugins/nvim-lspconfig.lua) file. The plugin uses the `netcoredbg` tool for debugging, which is installed in the `Debugger` section below.
+We are using the `roslyn.nvim` plugin for .NET LSP support. The plugin is
+configured in the
+[`nvim-lspconfig.lua`](./lua/fredrkl/plugins/nvim-lspconfig.lua) file. The
+plugin uses the `netcoredbg` tool for debugging, which is installed in the
+`Debugger` section below.
 
 Remember to install the `roslyn` LSP through the Mast plugin:
 
@@ -52,7 +64,9 @@ Remember to install the `roslyn` LSP through the Mast plugin:
 
 ## Debugger
 
-To setup debugger for .net we need the `netcoredbg` tool. Unfortunately, the `netocredbg` tool does not have a native M Chip version for macOS. To install the `netcoredbg` tool, follow the instructions below.
+To setup debugger for .net we need the `netcoredbg` tool. Unfortunately, the
+`netocredbg` tool does not have a native M Chip version for macOS. To install
+the `netcoredbg` tool, follow the instructions below.
 
 ```bash
 brew install cmake
@@ -67,13 +81,23 @@ CC=clang CXX=clang++ cmake -DCMAKE_INSTALL_PREFIX=/usr/local/bin/netcoredbg
 
 ## GitHub Copilot
 
-GitHub Copilot is a plugin that uses AI to help you write code. To use it, you need to have a GitHub account and be logged in to GitHub in your browser. See the neovim copliot plugin [repo](https://github.com/zbirenbaum/copilot.lua) for more information, e.g., default keybindings. The copliot plugin uses the _meta key_ by default, however that has been remapped in this settup to avoid _meta key_ usage. See the [plugin setup](./lua/fredrkl/plugins/zbirenbaum-copilot.lua) for the new keybindings.
+GitHub Copilot is a plugin that uses AI to help you write code. To use it, you
+need to have a GitHub account and be logged in to GitHub in your browser. See
+the neovim copliot plugin [repo](https://github.com/zbirenbaum/copilot.lua) for
+more information, e.g., default keybindings. The copliot plugin uses the _meta
+key_ by default, however that has been remapped in this settup to avoid _meta
+key_ usage. See the [plugin
+setup](./lua/fredrkl/plugins/zbirenbaum-copilot.lua) for the new keybindings.
 
-If using iTerm2 on macOS, the _meta key_ is not enabled by default. To enable it, go to `Preferences > Profiles > Keys` and select `Left option key acts as +Esc`.
+If using iTerm2 on macOS, the _meta key_ is not enabled by default. To enable
+it, go to `Preferences > Profiles > Keys` and select `Left option key acts as
++Esc`.
 
 ## Tmux
 
-This neovim setup works well with [tmux](https://github.com/tmux/tmux/wiki). I have created a [tmux setup](https://github.com/fredrkl/tmux-conf) that works well with this neovim setup.
+This neovim setup works well with [tmux](https://github.com/tmux/tmux/wiki). I
+have created a [tmux setup](https://github.com/fredrkl/tmux-conf) that works
+well with this neovim setup.
 
 ## Rest
 
@@ -99,7 +123,9 @@ The plugin folder is located in `~/.local/share/nvim/lazy/markdown-preview.nvim`
 
 ## Tips
 
-It can be beneficial to remap `Caps Lock` key to the `Ctrl` key. The `Ctrl` is used a lot in neovim, and it is easier to reach the `Caps Lock` key using the home row.
+It can be beneficial to remap `Caps Lock` key to the `Ctrl` key. The `Ctrl` is
+used a lot in neovim, and it is easier to reach the `Caps Lock` key using the
+home row.
 
 ## CHANGELOG
 
