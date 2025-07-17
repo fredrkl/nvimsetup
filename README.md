@@ -41,6 +41,11 @@ plugin. The Mason plugin is extended with the additional registries:
 - "github:mason-org/mason-registry"
 - "github:Crashdummyy/mason-registry"
 
+I aim to use [Homebrew](https://brew.sh) and my [dotfiles
+repo](https://github.com/fredrkl/dotfiles) for installing the LSPs and linters
+where possible, as it is the most convenient way to install and update. Where
+it is not possible I use the Mason plugin to install and manage the LSPs.
+
 ### Bicep Language Server Protocol (LSP)
 
 The LSP for Bicep need `dotnet cli` to run, and is started with the `cmd`
