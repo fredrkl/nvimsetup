@@ -159,6 +159,7 @@ return {
     lint.linters_by_ft = {
       lua = { "luacheck" },       -- example: Lua linter
       markdown = { "markdownlint-cli2" }, -- add markdown linter
+      yaml = { "yamllint" }, -- add yaml linter
       -- Add more filetypes and linters as needed
     }
 
