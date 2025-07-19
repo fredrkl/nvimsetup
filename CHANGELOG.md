@@ -1,3 +1,8 @@
+# [v1.19.0](https://github.com/fredrkl/nvimsetup/compare/v1.18.0...v1.19.0) (2025-07-19)
+
+## ✨ New Features
+- [`9f99d52`](https://github.com/fredrkl/nvimsetup/commit/9f99d52)  Yamllint
+
 # [v1.18.0](https://github.com/fredrkl/nvimsetup/compare/v1.17.0...v1.18.0) (2025-07-16)
 
 ## ✨ New Features
