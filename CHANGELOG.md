@@ -1,3 +1,8 @@
+# [v1.20.0](https://github.com/fredrkl/nvimsetup/compare/v1.19.0...v1.20.0) (2025-09-07)
+
+## ✨ New Features
+- [`b797e1b`](https://github.com/fredrkl/nvimsetup/commit/b797e1b)  Method signature documentation
+
 # [v1.19.0](https://github.com/fredrkl/nvimsetup/compare/v1.18.0...v1.19.0) (2025-07-19)
 
 ## ✨ New Features
