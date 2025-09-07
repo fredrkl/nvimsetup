@@ -39,6 +39,16 @@ return {
     local on_attach = function(_, bufnr)
       setup_global_keymaps(bufnr)
 
+      local cfg = {
+        bind = true, -- This is mandatory, otherwise border config won't get registered.
+        handler_opts = {
+          border = "rounded",
+          max_height = 12,
+          max_width = 80,
+        }
+      }
+
+      require "lsp_signature".on_attach(cfg, bufnr)
 --      opts.buffer = bufnr
 --
 --      -- set keybinds
