@@ -1,3 +1,8 @@
+# [v1.22.0](https://github.com/fredrkl/nvimsetup/compare/v1.21.0...v1.22.0) (2025-09-19)
+
+## ✨ New Features
+- [`b731291`](https://github.com/fredrkl/nvimsetup/commit/b731291)  Remove file from harpoon
+
 # [v1.21.0](https://github.com/fredrkl/nvimsetup/compare/v1.20.0...v1.21.0) (2025-09-18)
 
 ## ✨ New Features
