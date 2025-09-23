@@ -1,3 +1,8 @@
+# [v1.23.0](https://github.com/fredrkl/nvimsetup/compare/v1.22.0...v1.23.0) (2025-09-23)
+
+## ✨ New Features
+- [`2c3ae4f`](https://github.com/fredrkl/nvimsetup/commit/2c3ae4f)  Harpoon switching between 4 files shortcut
+
 # [v1.22.0](https://github.com/fredrkl/nvimsetup/compare/v1.21.0...v1.22.0) (2025-09-19)
 
 ## ✨ New Features
