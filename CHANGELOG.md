@@ -1,3 +1,8 @@
+# [v1.24.0](https://github.com/fredrkl/nvimsetup/compare/v1.23.0...v1.24.0) (2025-10-25)
+
+## ✨ New Features
+- [`92283e0`](https://github.com/fredrkl/nvimsetup/commit/92283e0)  Using native lsp
+
 # [v1.23.0](https://github.com/fredrkl/nvimsetup/compare/v1.22.0...v1.23.0) (2025-09-23)
 
 ## ✨ New Features
