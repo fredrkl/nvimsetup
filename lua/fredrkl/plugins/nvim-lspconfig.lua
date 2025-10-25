@@ -28,7 +28,8 @@ return {
     require("fidget").setup({})
 
     -- import lspconfig plugin
-    local lspconfig = require("lspconfig")
+    --local lspconfig = vim.lsp.config
+    local vim = vim
 
     -- import cmp-nvim-lsp plugin
     local cmp_nvim_lsp = require("cmp_nvim_lsp")
@@ -107,14 +108,15 @@ return {
     local bicep_lsp_bin = "/usr/local/bin/bicep-langserver/Bicep.LangServer.dll"
 --    vim.cmd [[ autocmd BufNewFile,BufRead *.bicep set filetype=bicep ]]
 
-    lspconfig["bicep"].setup({
+    vim.lsp.config("bicep",{
       capabilities = capabilities,
       on_attach = on_attach,
       filetypes = { "bicep" },
       cmd = { "dotnet", bicep_lsp_bin}
     })
+    vim.lsp.enable("bicep")
 
-    lspconfig["lua_ls"].setup({
+    vim.lsp.config("lua_ls",{
       capabilities = capabilities,
       on_attach = on_attach,
       filetypes = { "lua"},
@@ -124,25 +126,28 @@ return {
             globals = { 'vim' }, -- make lua-lsp aware of vim global
           }
         }
-      }
+     }
     })
+    vim.lsp.enable("lua_ls")
 
     -- configure emmet language server
-    lspconfig["emmet_ls"].setup({
+    vim.lsp.config("emmet_ls",{
       capabilities = capabilities,
       on_attach = on_attach,
       filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
     })
+    vim.lsp.enable("emmet_ls")
 
     -- configure Terraform language server
-    lspconfig["terraformls"].setup({
+    vim.lsp.config("terraformls",{
       capabilities = capabilities,
       on_attach = on_attach,
       filetypes = { "terraform" },
     })
+    vim.lsp.enable("terraformls")
 
     -- YAML Language Server
-    lspconfig["yamlls"].setup({
+    vim.lsp.config("yamlls",{
       capabilities = capabilities,
       on_attach = on_attach,
       filetypes = { "yaml" },
@@ -158,12 +163,15 @@ return {
         },
       },
     })
+    vim.lsp.enable("yamlls")
 
-    lspconfig["marksman"].setup({
+    vim.lsp.config("marksman",{
       capabilities = capabilities,
       on_attach = on_attach,
       filetypes = { "markdown" },
     })
+    vim.lsp.enable("marksman")
+
     -- Setup nvim-lint for linters
     local lint = require("lint")
     lint.linters_by_ft = {
