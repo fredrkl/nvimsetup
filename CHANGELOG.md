@@ -1,3 +1,8 @@
+# [v1.25.0](https://github.com/fredrkl/nvimsetup/compare/v1.24.0...v1.25.0) (2025-10-28)
+
+## ✨ New Features
+- [`c600d94`](https://github.com/fredrkl/nvimsetup/commit/c600d94)  Using default colorscheme instad of nightfly
+
 # [v1.24.0](https://github.com/fredrkl/nvimsetup/compare/v1.23.0...v1.24.0) (2025-10-25)
 
 ## ✨ New Features
