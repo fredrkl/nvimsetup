@@ -33,6 +33,9 @@ keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" }
 keymap.set("n", "<leader>sp", "<cmd>set spell!<CR>", { desc = "Toggle spell checking" }) -- Toogle spellchecker
 keymap.set('n', '<leader>ss', "z=", { noremap = true, silent = true, desc = "Spelling suggestions" })
 
+--Lazy
+keymap.set('n', '<leader>ll', "<cmd>Lazy<CR>", { noremap = true, desc = "Lazy" })
+
 function setup_global_keymaps(bufnr)
   local keymap = vim.keymap
   local opts = { noremap = true, silent = true }
