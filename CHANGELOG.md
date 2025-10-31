@@ -1,3 +1,8 @@
+# [v1.26.0](https://github.com/fredrkl/nvimsetup/compare/v1.25.0...v1.26.0) (2025-10-31)
+
+## ✨ New Features
+- [`93f0129`](https://github.com/fredrkl/nvimsetup/commit/93f0129)  Lazy plugin shortcut
+
 # [v1.25.0](https://github.com/fredrkl/nvimsetup/compare/v1.24.0...v1.25.0) (2025-10-28)
 
 ## ✨ New Features
