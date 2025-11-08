@@ -12,6 +12,15 @@ return {
       highlight = {
         enable = true,
       },
+      incremental_selection = {
+        enable = true,
+        keymaps = {
+          init_selection = "gnn",          -- Start selection
+          node_incremental = "grn",        -- Increment to next node
+          scope_incremental = "grc",       -- Increment to next scope
+          node_decremental = "grm",        -- Decrement to previous node
+        },
+      },
     }
   end,
 }
