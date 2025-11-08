@@ -14,7 +14,7 @@ return {
           for _, item in ipairs(harpoon_files.items) do
               table.insert(file_paths, item.value)
           end
-      
+
           require("telescope.pickers").new({}, {
               prompt_title = "Harpoon",
               finder = require("telescope.finders").new_table({
