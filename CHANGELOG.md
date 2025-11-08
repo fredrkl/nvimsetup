@@ -1,3 +1,8 @@
+# [v1.27.0](https://github.com/fredrkl/nvimsetup/compare/v1.26.0...v1.27.0) (2025-11-08)
+
+## ✨ New Features
+- [`f5a4c7a`](https://github.com/fredrkl/nvimsetup/commit/f5a4c7a)  Treesitter selection keymappings
+
 # [v1.26.0](https://github.com/fredrkl/nvimsetup/compare/v1.25.0...v1.26.0) (2025-10-31)
 
 ## ✨ New Features
