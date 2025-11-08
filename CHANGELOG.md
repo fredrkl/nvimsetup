@@ -1,3 +1,8 @@
+# [v1.28.0](https://github.com/fredrkl/nvimsetup/compare/v1.27.0...v1.28.0) (2025-11-08)
+
+## ✨ New Features
+- [`7182be7`](https://github.com/fredrkl/nvimsetup/commit/7182be7)  Harpoon telescope shortcut
+
 # [v1.27.0](https://github.com/fredrkl/nvimsetup/compare/v1.26.0...v1.27.0) (2025-11-08)
 
 ## ✨ New Features
