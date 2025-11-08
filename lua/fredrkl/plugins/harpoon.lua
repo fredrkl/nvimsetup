@@ -35,5 +35,6 @@ return {
       vim.keymap.set("n", "<leader>h4", function() harpoon:list():select(4) end, { desc = "Harpoon: Go to file 4" })
       vim.keymap.set("n", "<leader>hj", function() harpoon:list():prev() end, { desc = "Harpoon: Go to previous file" })
       vim.keymap.set("n", "<leader>hk", function() harpoon:list():next() end, { desc = "Harpoon: Go to next file" })
+      vim.keymap.set("n", "<leader>hf", function() toggle_telescope(harpoon:list()) end, { desc = "Harpoon: Telescope Harpoon files" })
     end
 }
