@@ -1,3 +1,8 @@
+# [v1.30.0](https://github.com/fredrkl/nvimsetup/compare/v1.29.0...v1.30.0) (2025-11-18)
+
+## ✨ New Features
+- [`c5e442a`](https://github.com/fredrkl/nvimsetup/commit/c5e442a)  Show methods lsp shortcut
+
 # [v1.29.0](https://github.com/fredrkl/nvimsetup/compare/v1.28.0...v1.29.0) (2025-11-18)
 
 ## ✨ New Features
