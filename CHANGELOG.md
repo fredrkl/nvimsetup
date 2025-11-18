@@ -1,3 +1,8 @@
+# [v1.29.0](https://github.com/fredrkl/nvimsetup/compare/v1.28.0...v1.29.0) (2025-11-18)
+
+## ✨ New Features
+- [`86d5838`](https://github.com/fredrkl/nvimsetup/commit/86d5838)  Vim settings for markdown
+
 # [v1.28.0](https://github.com/fredrkl/nvimsetup/compare/v1.27.0...v1.28.0) (2025-11-08)
 
 ## ✨ New Features
