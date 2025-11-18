@@ -64,9 +64,15 @@ function setup_global_keymaps(bufnr)
 
   opts.desc = "Smart rename"
   keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts) -- smart rename
-
   opts.desc = "Restart LSP"
   keymap.set("n", "<leader>rs", ":LspRestart<CR>", opts) -- mapping to restart lsp if necessary
+
+  opts.desc = "Show document methods"
+  keymap.set("n", "<leader>cm", function()
+    require('telescope.builtin').lsp_document_symbols({
+    symbols = { "Method" }
+  })
+  end, opts)
 end
 
 -- Roslyn LSP keymaps for C# files. My Roslyn LSP does not support the on_attach function, so I have to use an autocmd instead.
