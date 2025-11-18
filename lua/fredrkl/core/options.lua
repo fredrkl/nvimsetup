@@ -81,5 +81,8 @@ vim.api.nvim_create_autocmd('FileType', {
   pattern = 'markdown',
   callback = function()
     vim.opt_local.colorcolumn = "80" -- set local colorcolumn to 80 for markdown files
+    vim.opt_local.tabstop = 2
+    vim.opt_local.shiftwidth = 2
+    vim.opt_local.expandtab = true
   end
 })
