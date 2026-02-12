@@ -1,5 +1,6 @@
 return {
   "nvim-neotest/neotest",
+  veryLazy = true,
   dependencies = {
     "nvim-neotest/nvim-nio",
     "nvim-lua/plenary.nvim",
