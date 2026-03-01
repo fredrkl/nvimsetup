@@ -76,12 +76,18 @@ function setup_global_keymaps(bufnr)
 end
 
 -- Roslyn LSP keymaps for C# files. My Roslyn LSP does not support the on_attach function, so I have to use an autocmd instead.
-vim.api.nvim_create_autocmd('FileType', {
-  pattern = 'cs',
-  callback = function()
-      setup_global_keymaps()
-  end
-})
+--vim.api.nvim_create_autocmd('FileType', {
+--  pattern = 'cs',
+--  callback = function()
+--      --setup_global_keymaps()
+--    keymap.set("n", "gR", function()
+--      require('telescope.builtin').lsp_references({
+--        bufnr = vim.api.nvim_get_current_buf(),
+--        include_declaration = true,
+--      })
+--    end, { noremap = true, silent = true, desc = "Show LSP references" })
+--  end
+--})
 
 vim.api.nvim_create_autocmd('FileType', {
   pattern = 'markdown',
