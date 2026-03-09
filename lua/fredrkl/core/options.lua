@@ -32,6 +32,8 @@ keymap.set("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size" }) -- 
 keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" }) -- close current split window
 keymap.set("n", "<leader>sp", "<cmd>set spell!<CR>", { desc = "Toggle spell checking" }) -- Toogle spellchecker
 keymap.set('n', '<leader>ss', "z=", { noremap = true, silent = true, desc = "Spelling suggestions" })
+-- Example: Trigger CodeLens action under cursor
+vim.keymap.set("n", "<leader>cl", vim.lsp.codelens.run, { desc = "Run CodeLens" })
 
 --Lazy
 keymap.set('n', '<leader>ll', "<cmd>Lazy<CR>", { noremap = true, desc = "Lazy" })

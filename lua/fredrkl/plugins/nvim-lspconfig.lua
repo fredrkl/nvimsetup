@@ -181,13 +181,13 @@ return {
       -- Add more filetypes and linters as needed
     }
 
-    vim.lsp.config("roslyn", {
-      capabilities = capabilities,
-      on_attach = on_attach,
-      filetypes = { "cs" },
-      settings = {},
-    })
-    vim.lsp.enable("roslyn")
+--    vim.lsp.config("roslyn", {
+--      capabilities = capabilities,
+--      on_attach = on_attach,
+--      filetypes = { "cs" },
+--      settings = {},
+--    })
+--    vim.lsp.enable("roslyn")
 
     -- Optionally, run lint on BufWritePost
     vim.api.nvim_create_autocmd({ "BufWritePost" }, {
