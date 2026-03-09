@@ -1,3 +1,8 @@
+# [v1.32.0](https://github.com/fredrkl/nvimsetup/compare/v1.31.0...v1.32.0) (2026-03-09)
+
+## ✨ New Features
+- [`ab9d902`](https://github.com/fredrkl/nvimsetup/commit/ab9d902)  References for .net
+
 # [v1.31.0](https://github.com/fredrkl/nvimsetup/compare/v1.30.0...v1.31.0) (2026-03-09)
 
 ## ✨ New Features
