@@ -1,3 +1,8 @@
+# [v1.31.0](https://github.com/fredrkl/nvimsetup/compare/v1.30.0...v1.31.0) (2026-03-09)
+
+## ✨ New Features
+- [`45f6c55`](https://github.com/fredrkl/nvimsetup/commit/45f6c55)  Easy-dotnet
+
 # [v1.30.0](https://github.com/fredrkl/nvimsetup/compare/v1.29.0...v1.30.0) (2025-11-18)
 
 ## ✨ New Features
