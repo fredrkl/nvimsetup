@@ -1,3 +1,8 @@
+# [v1.35.0](https://github.com/fredrkl/nvimsetup/compare/v1.34.0...v1.35.0) (2026-03-17)
+
+## ✨ New Features
+- [`6f87151`](https://github.com/fredrkl/nvimsetup/commit/6f87151)  Lazy load a couple of plugins
+
 # [v1.34.0](https://github.com/fredrkl/nvimsetup/compare/v1.33.0...v1.34.0) (2026-03-17)
 
 ## ✨ New Features
