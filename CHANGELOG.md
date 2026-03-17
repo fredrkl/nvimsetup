@@ -1,3 +1,8 @@
+# [v1.33.0](https://github.com/fredrkl/nvimsetup/compare/v1.32.0...v1.33.0) (2026-03-17)
+
+## ✨ New Features
+- [`d177eff`](https://github.com/fredrkl/nvimsetup/commit/d177eff)  Easy dotnet global keymappings
+
 # [v1.32.0](https://github.com/fredrkl/nvimsetup/compare/v1.31.0...v1.32.0) (2026-03-09)
 
 ## ✨ New Features
