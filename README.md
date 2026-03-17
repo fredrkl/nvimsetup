@@ -8,7 +8,6 @@
 - [RipGrep](https://github.com/BurntSushi/ripgrep)
 - [Rust Analyzer](https://rust-analyzer.github.io/manual.html)
 - [Python and pip](https://www.python.org/downloads/)
-- [Marp CLI](https://github.com/marp-team/marp-cli)
 
 Nodejs is only needed for [_GitHub
 Copilot_](https://github.com/features/copilot). Dotnet sdk is only needed for
