@@ -1,3 +1,8 @@
+# [v1.34.0](https://github.com/fredrkl/nvimsetup/compare/v1.33.0...v1.34.0) (2026-03-17)
+
+## ✨ New Features
+- [`01d6d06`](https://github.com/fredrkl/nvimsetup/commit/01d6d06)  Do not need Marp
+
 # [v1.33.0](https://github.com/fredrkl/nvimsetup/compare/v1.32.0...v1.33.0) (2026-03-17)
 
 ## ✨ New Features
