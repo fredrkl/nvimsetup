@@ -65,9 +65,7 @@ function setup_global_keymaps(bufnr)
   keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, opts) -- see available code actions, in visual mode will apply to selection
 
   opts.desc = "Smart rename"
-  keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts) -- smart rename
-  opts.desc = "Restart LSP"
-  keymap.set("n", "<leader>rs", ":LspRestart<CR>", opts) -- mapping to restart lsp if necessary
+  keymap.set("n", "<leader>cn", vim.lsp.buf.rename, opts) -- smart rename
 
   opts.desc = "Show document methods"
   keymap.set("n", "<leader>cm", function()
