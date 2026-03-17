@@ -1,3 +1,8 @@
+# [v1.37.0](https://github.com/fredrkl/nvimsetup/compare/v1.36.0...v1.37.0) (2026-03-17)
+
+## ✨ New Features
+- [`7ab4be0`](https://github.com/fredrkl/nvimsetup/commit/7ab4be0)  Remove rust support
+
 # [v1.36.0](https://github.com/fredrkl/nvimsetup/compare/v1.35.0...v1.36.0) (2026-03-17)
 
 ## ✨ New Features
