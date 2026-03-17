@@ -14,5 +14,6 @@ return {
 --  },
   config = function()
     require("easy-dotnet").setup()
+    setup_global_keymaps()
   end
 }
