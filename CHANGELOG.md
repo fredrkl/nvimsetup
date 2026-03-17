@@ -1,3 +1,8 @@
+# [v1.36.0](https://github.com/fredrkl/nvimsetup/compare/v1.35.0...v1.36.0) (2026-03-17)
+
+## ✨ New Features
+- [`ea42a71`](https://github.com/fredrkl/nvimsetup/commit/ea42a71)  Cleanup keybindings
+
 # [v1.35.0](https://github.com/fredrkl/nvimsetup/compare/v1.34.0...v1.35.0) (2026-03-17)
 
 ## ✨ New Features
