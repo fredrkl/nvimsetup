@@ -39,9 +39,12 @@ return {
         ["<C-e>"] = cmp.mapping.abort(), -- close completion window
         ["<CR>"] = cmp.mapping.confirm({ select = false }),
       }),
+
+      cmp.register_source("easy-dotnet", require("easy-dotnet").package_completion_source),
       -- sources for autocompletion
       sources = cmp.config.sources({
         { name = "nvim_lsp" }, -- lsp servers
+        { name = "easy-dotnet" }, -- easy-dotnet package
         { name = "luasnip" }, -- snippets
         { name = "buffer" }, -- text within current buffer
         { name = "path" }, -- file system paths
