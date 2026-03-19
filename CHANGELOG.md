@@ -1,3 +1,8 @@
+# [v1.38.0](https://github.com/fredrkl/nvimsetup/compare/v1.37.0...v1.38.0) (2026-03-18)
+
+## ✨ New Features
+- [`751051f`](https://github.com/fredrkl/nvimsetup/commit/751051f)  Easy dotnet debugging keymappings
+
 # [v1.37.0](https://github.com/fredrkl/nvimsetup/compare/v1.36.0...v1.37.0) (2026-03-17)
 
 ## ✨ New Features
