@@ -45,6 +45,7 @@ return {
       sources = cmp.config.sources({
         { name = "nvim_lsp" }, -- lsp servers
         { name = "easy-dotnet" }, -- easy-dotnet package
+        { name = "vim-dadbod-completion" }, -- DB
         { name = "luasnip" }, -- snippets
         { name = "buffer" }, -- text within current buffer
         { name = "path" }, -- file system paths
