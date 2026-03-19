@@ -34,12 +34,6 @@ This plugin uses the Mason plugin to manage LSPs. See the mason github repo for
 [available Mason LSP
 servers](https://github.com/williamboman/mason-lspconfig.nvim?tab=readme-ov-file#available-lsp-servers).
 
-For the C# LSP, I use the [roslyn.vim](https://github.com/seblyng/roslyn.nvim)
-plugin. The Mason plugin is extended with the additional registries:
-
-- "github:mason-org/mason-registry"
-- "github:Crashdummyy/mason-registry"
-
 I aim to use [Homebrew](https://brew.sh) and my [dotfiles
 repo](https://github.com/fredrkl/dotfiles) for installing the LSPs and linters
 where possible, as it is the most convenient way to install and update. Where
@@ -54,34 +48,11 @@ property.  Please see the
 config`](https://github.com/neovim/nvim-lspconfig/blob/master/lua/lspconfig/server_configurations/bicep.lua)
 for more information.
 
-### .NET LSP
+## .NET LSP
 
-We are using the `roslyn.nvim` plugin for .NET LSP support. The plugin is
-configured in the
-[`nvim-lspconfig.lua`](./lua/fredrkl/plugins/nvim-lspconfig.lua) file. The
-plugin uses the `netcoredbg` tool for debugging, which is installed in the
-`Debugger` section below.
-
-Remember to install the `roslyn` LSP through the Mast plugin:
-
-`:MasonInstall roslyn`
-
-## Debugger
-
-To setup debugger for .net we need the `netcoredbg` tool. Unfortunately, the
-`netocredbg` tool does not have a native M Chip version for macOS. To install
-the `netcoredbg` tool, follow the instructions below.
-
-```bash
-brew install cmake
-xcode-select --install
-git clone git@github.com:Samsung/netcoredbg.git $HOME/repos/netcoredbg
-cd $HOME/repos/netcoredbg
-mkdir build
-cd build
-mkdir /usr/local/bin/netcoredbg
-CC=clang CXX=clang++ cmake -DCMAKE_INSTALL_PREFIX=/usr/local/bin/netcoredbg
-```
+For the C# LSP, I use the
+[easy-dotnet.vim](https://github.com/GustavEikaas/easy-dotnet.nvim) plugin. It
+automatically installs the `netcoredbg` .net debugger and uses the Roslyn LSP.
 
 ## GitHub Copilot
 
