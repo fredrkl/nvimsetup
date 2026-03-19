@@ -1,3 +1,8 @@
+# [v1.41.0](https://github.com/fredrkl/nvimsetup/compare/v1.40.0...v1.41.0) (2026-03-19)
+
+## ✨ New Features
+- [`1f4e554`](https://github.com/fredrkl/nvimsetup/commit/1f4e554)  Dadbod cmp and keybinding
+
 # [v1.40.0](https://github.com/fredrkl/nvimsetup/compare/v1.39.0...v1.40.0) (2026-03-19)
 
 ## ✨ New Features
