@@ -1,3 +1,8 @@
+# [v1.39.0](https://github.com/fredrkl/nvimsetup/compare/v1.38.0...v1.39.0) (2026-03-19)
+
+## ✨ New Features
+- [`98632fd`](https://github.com/fredrkl/nvimsetup/commit/98632fd)  Easy-dotnet nuget cmp source
+
 # [v1.38.0](https://github.com/fredrkl/nvimsetup/compare/v1.37.0...v1.38.0) (2026-03-18)
 
 ## ✨ New Features
