@@ -19,12 +19,7 @@ return {
      'mfussenegger/nvim-lint', -- nvim-lint for linters
   },
   config = function()
-    require("mason").setup({
-      registries = {
-        "github:mason-org/mason-registry",
-        "github:Crashdummyy/mason-registry",
-      },
-    })
+    require("mason").setup({})
     require("fidget").setup({})
 
     -- import lspconfig plugin
