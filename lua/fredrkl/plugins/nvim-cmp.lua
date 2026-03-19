@@ -46,9 +46,9 @@ return {
         { name = "nvim_lsp" }, -- lsp servers
         { name = "easy-dotnet" }, -- easy-dotnet package
         { name = "vim-dadbod-completion" }, -- DB
-        { name = "luasnip" }, -- snippets
         { name = "buffer" }, -- text within current buffer
         { name = "path" }, -- file system paths
+--        { name = "luasnip" }, -- snippets
       }),
       -- configure lspkind for vs-code like pictograms in completion menu
       formatting = {
