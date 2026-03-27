@@ -1,3 +1,8 @@
+# [v1.43.0](https://github.com/fredrkl/nvimsetup/compare/v1.42.0...v1.43.0) (2026-03-27)
+
+## ✨ New Features
+- [`ce10ee2`](https://github.com/fredrkl/nvimsetup/commit/ce10ee2)  Only load table mode on markdown files
+
 # [v1.42.0](https://github.com/fredrkl/nvimsetup/compare/v1.41.0...v1.42.0) (2026-03-19)
 
 ## ✨ New Features
