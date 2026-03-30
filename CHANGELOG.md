@@ -1,3 +1,8 @@
+# [v1.44.0](https://github.com/fredrkl/nvimsetup/compare/v1.43.0...v1.44.0) (2026-03-28)
+
+## ✨ New Features
+- [`9a33b8d`](https://github.com/fredrkl/nvimsetup/commit/9a33b8d)  Do not need external colorscheme
+
 # [v1.43.0](https://github.com/fredrkl/nvimsetup/compare/v1.42.0...v1.43.0) (2026-03-27)
 
 ## ✨ New Features
