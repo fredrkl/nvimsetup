@@ -21,9 +21,6 @@ opt.clipboard = 'unnamedplus'
 
 -- Move back and forth between files
 local keymap = vim.keymap
--- Probably because mapleader is not yet set
-keymap.set("n", "<leader>nb", "<cmd>bprevious<CR>", { noremap = true })
-keymap.set("n", "<leader>nf", "<cmd>bnext<CR>", { noremap = true })
 
 -- Window navigation
 keymap.set("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" }) -- split window vertically
