@@ -1,3 +1,8 @@
+# [v1.45.0](https://github.com/fredrkl/nvimsetup/compare/v1.44.0...v1.45.0) (2026-03-30)
+
+## ✨ New Features
+- [`b9eea2c`](https://github.com/fredrkl/nvimsetup/commit/b9eea2c)  Reducing setup
+
 # [v1.44.0](https://github.com/fredrkl/nvimsetup/compare/v1.43.0...v1.44.0) (2026-03-28)
 
 ## ✨ New Features
