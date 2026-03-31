@@ -70,6 +70,18 @@ function setup_global_keymaps(bufnr)
     symbols = { "Method" }
   })
   end, opts)
+
+  opts.desc = "Show LSP hover documentation"
+  keymap.set("n", "K", function()
+    local hover_success = vim.lsp.buf.hover({
+      border = "rounded",
+      max_width = 80,
+      max_height = 20,
+    })
+    if not hover_success then
+      vim.notify("No hover information available", vim.log.levels.WARN)
+    end
+  end, opts)
 end
 
 -- Roslyn LSP keymaps for C# files. My Roslyn LSP does not support the on_attach function, so I have to use an autocmd instead.
