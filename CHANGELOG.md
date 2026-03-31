@@ -1,3 +1,8 @@
+# [v1.46.0](https://github.com/fredrkl/nvimsetup/compare/v1.45.0...v1.46.0) (2026-03-31)
+
+## ✨ New Features
+- [`a7d47a4`](https://github.com/fredrkl/nvimsetup/commit/a7d47a4)  Hover settings
+
 # [v1.45.0](https://github.com/fredrkl/nvimsetup/compare/v1.44.0...v1.45.0) (2026-03-30)
 
 ## ✨ New Features
