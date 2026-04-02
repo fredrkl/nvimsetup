@@ -22,8 +22,12 @@ return {
         completeopt = "menu,menuone,preview,noselect",
       },
       window = {
-        documentation = cmp.config.window.bordered(),
-        completion = cmp.config.window.bordered(),
+        documentation = cmp.config.window.bordered({
+          border = "rounded"
+        }),
+        completion = cmp.config.window.bordered({
+          border = "rounded"
+        }),
       },
       snippet = { -- configure how nvim-cmp interacts with snippet engine
         expand = function(args)
