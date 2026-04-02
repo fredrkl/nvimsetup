@@ -1,3 +1,8 @@
+# [v1.47.0](https://github.com/fredrkl/nvimsetup/compare/v1.46.0...v1.47.0) (2026-04-02)
+
+## ✨ New Features
+- [`b79b273`](https://github.com/fredrkl/nvimsetup/commit/b79b273)  Bordered cmp
+
 # [v1.46.0](https://github.com/fredrkl/nvimsetup/compare/v1.45.0...v1.46.0) (2026-03-31)
 
 ## ✨ New Features
