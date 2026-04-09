@@ -1,3 +1,8 @@
+# [v1.48.0](https://github.com/fredrkl/nvimsetup/compare/v1.47.0...v1.48.0) (2026-04-09)
+
+## ✨ New Features
+- [`bb2588d`](https://github.com/fredrkl/nvimsetup/commit/bb2588d)  Using main treesitter
+
 # [v1.47.0](https://github.com/fredrkl/nvimsetup/compare/v1.46.0...v1.47.0) (2026-04-02)
 
 ## ✨ New Features
