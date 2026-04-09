@@ -1,3 +1,8 @@
+# [v1.49.0](https://github.com/fredrkl/nvimsetup/compare/v1.48.0...v1.49.0) (2026-04-09)
+
+## ✨ New Features
+- [`b74f1cc`](https://github.com/fredrkl/nvimsetup/commit/b74f1cc)  Do not need luarocks
+
 # [v1.48.0](https://github.com/fredrkl/nvimsetup/compare/v1.47.0...v1.48.0) (2026-04-09)
 
 ## ✨ New Features
