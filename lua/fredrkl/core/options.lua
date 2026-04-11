@@ -99,6 +99,16 @@ end
 --})
 
 vim.api.nvim_create_autocmd('FileType', {
+  pattern = { 'c_sharp', 'lua' },
+  callback = function()
+    vim.treesitter.start()
+    vim.wo.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
+    vim.wo.foldmethod = 'expr'
+    vim.bo.indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
+  end,
+})
+
+vim.api.nvim_create_autocmd('FileType', {
   pattern = 'markdown',
   callback = function()
     vim.opt_local.colorcolumn = "80" -- set local colorcolumn to 80 for markdown files

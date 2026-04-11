@@ -28,6 +28,15 @@ the _Bicep_ LSP.
 - [Primeagen guide](https://www.youtube.com/watch?v=w7i4amO_zaE)
 - [Josean Martinez guide](https://www.youtube.com/watch?v=6mxWayq-s9I)
 
+## Treesitter
+
+```bash
+curl -fL https://github.com/tree-sitter/tree-sitter/releases/download/v0.26.8/tree-sitter-macos-arm64.gz -o tree-sitter.gz
+gunzip -f tree-sitter.gz
+chmod +x tree-sitter
+sudo mv tree-sitter /usr/local/bin/
+```
+
 ## Mason Language Server Protocol (LSP) plugin manager
 
 This plugin uses the Mason plugin to manage LSPs. See the mason github repo for

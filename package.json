@@ -7,5 +7,8 @@
     "conventional-changelog-conventionalcommits": "^8.0.0",
     "semantic-release": "^24.2.0",
     "semantic-release-gitmoji": "^1.6.8"
+  },
+  "dependencies": {
+    "tree-sitter-cli": "^0.26.8"
   }
 }
