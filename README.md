@@ -111,6 +111,14 @@ It can be beneficial to remap `Caps Lock` key to the `Ctrl` key. The `Ctrl` is
 used a lot in neovim, and it is easier to reach the `Caps Lock` key using the
 home row.
 
+### Incremental/decremental node selection
+
+Previously the treesitter tool enabled incremental selection/deselection. The
+NVim 0.12 release nativly provide in visual mode:
+
+- v an to increase selection
+- v in to decrease selection
+
 ## CHANGELOG
 
 - <https://github.com/fredrkl/nvimsetup/blob/main/CHANGELOG.md>
