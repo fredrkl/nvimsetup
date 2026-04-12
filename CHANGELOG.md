@@ -1,3 +1,8 @@
+# [v1.50.0](https://github.com/fredrkl/nvimsetup/compare/v1.49.0...v1.50.0) (2026-04-11)
+
+## ✨ New Features
+- [`04d7d49`](https://github.com/fredrkl/nvimsetup/commit/04d7d49)  New treesitter
+
 # [v1.49.0](https://github.com/fredrkl/nvimsetup/compare/v1.48.0...v1.49.0) (2026-04-09)
 
 ## ✨ New Features
