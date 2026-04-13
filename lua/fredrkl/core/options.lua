@@ -13,6 +13,10 @@ opt.shiftwidth = 2 -- 2 spaces for indent width
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 
+-- folding
+opt.foldmethod = 'manual' -- only fold when manually created
+opt.foldlevelstart = 99 -- open all folds when file is opened
+
 -- buffers
 opt.splitright = true
 
@@ -102,8 +106,10 @@ vim.api.nvim_create_autocmd('FileType', {
   pattern = { 'c_sharp', 'lua' },
   callback = function()
     vim.treesitter.start()
-    vim.wo.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
-    vim.wo.foldmethod = 'expr'
+    vim.wo.foldmethod = 'manual'     -- disable expression folding
+    vim.wo.foldlevelstart = 99
+    --vim.wo.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
+    --vim.wo.foldmethod = 'expr'
     vim.bo.indentexpr = "v:lua.require'nvim-treesitter'.indentexpr()"
   end,
 })
