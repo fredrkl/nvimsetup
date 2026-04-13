@@ -4,7 +4,7 @@ return {
   lazy = false,
   build = ':TSUpdate',
   config = function()
-    require('nvim-treesitter').install { 'c_sharp', 'lua' }
+    require('nvim-treesitter').install { 'c_sharp', 'lua', 'json' }
   end,
 }
 --
