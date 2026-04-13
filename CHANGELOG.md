@@ -1,3 +1,11 @@
+# [v1.51.0](https://github.com/fredrkl/nvimsetup/compare/v1.50.0...v1.51.0) (2026-04-13)
+
+## ✨ New Features
+- [`ed0c1fb`](https://github.com/fredrkl/nvimsetup/commit/ed0c1fb)  Json treesitter 
+
+## 🐛 Bug Fixes
+- [`1283adb`](https://github.com/fredrkl/nvimsetup/commit/1283adb)  Do not fold on C# files
+
 # [v1.50.0](https://github.com/fredrkl/nvimsetup/compare/v1.49.0...v1.50.0) (2026-04-11)
 
 ## ✨ New Features
