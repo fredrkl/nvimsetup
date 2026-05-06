@@ -21,6 +21,7 @@ return {
       },
       -- change folder arrow icons
       renderer = {
+        group_empty = true,
         indent_markers = {
           enable = true,
         },
