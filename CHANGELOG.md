@@ -1,3 +1,8 @@
+# [v1.53.0](https://github.com/fredrkl/nvimsetup/compare/v1.52.0...v1.53.0) (2026-05-06)
+
+## ✨ New Features
+- [`ee0fa5b`](https://github.com/fredrkl/nvimsetup/commit/ee0fa5b)  Do not need luasnipp in cmp source
+
 # [v1.52.0](https://github.com/fredrkl/nvimsetup/compare/v1.51.0...v1.52.0) (2026-05-06)
 
 ## ✨ New Features
