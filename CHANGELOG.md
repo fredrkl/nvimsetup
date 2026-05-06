@@ -1,3 +1,8 @@
+# [v1.52.0](https://github.com/fredrkl/nvimsetup/compare/v1.51.0...v1.52.0) (2026-05-06)
+
+## ✨ New Features
+- [`6e8af41`](https://github.com/fredrkl/nvimsetup/commit/6e8af41)  Group empty directories
+
 # [v1.51.0](https://github.com/fredrkl/nvimsetup/compare/v1.50.0...v1.51.0) (2026-04-13)
 
 ## ✨ New Features
