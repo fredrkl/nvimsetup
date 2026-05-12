@@ -1,3 +1,8 @@
+# [v1.54.0](https://github.com/fredrkl/nvimsetup/compare/v1.53.0...v1.54.0) (2026-05-12)
+
+## ✨ New Features
+- [`d865fc1`](https://github.com/fredrkl/nvimsetup/commit/d865fc1)  VeryLazy load lualine
+
 # [v1.53.0](https://github.com/fredrkl/nvimsetup/compare/v1.52.0...v1.53.0) (2026-05-06)
 
 ## ✨ New Features
