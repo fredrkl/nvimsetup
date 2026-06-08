@@ -81,6 +81,13 @@ return {
     })
     vim.lsp.enable("lua_ls")
 
+    vim.lsp.config("jdtls",{
+      capabilities = capabilities,
+      on_attach = on_attach,
+      filetypes = { "java" },
+    })
+    vim.lsp.enable("jdtls")
+
     -- configure emmet language server
     vim.lsp.config("emmet_ls",{
       capabilities = capabilities,
