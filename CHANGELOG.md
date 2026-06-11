@@ -1,3 +1,8 @@
+# [v1.55.0](https://github.com/fredrkl/nvimsetup/compare/v1.54.0...v1.55.0) (2026-06-11)
+
+## ✨ New Features
+- [`fd54156`](https://github.com/fredrkl/nvimsetup/commit/fd54156)  Openjdk lsp support
+
 # [v1.54.0](https://github.com/fredrkl/nvimsetup/compare/v1.53.0...v1.54.0) (2026-05-12)
 
 ## ✨ New Features
