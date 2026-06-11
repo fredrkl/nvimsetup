@@ -1,3 +1,8 @@
+# [v1.56.0](https://github.com/fredrkl/nvimsetup/compare/v1.55.0...v1.56.0) (2026-06-11)
+
+## ✨ New Features
+- [`d86ecac`](https://github.com/fredrkl/nvimsetup/commit/d86ecac)  Telescope list buffers
+
 # [v1.55.0](https://github.com/fredrkl/nvimsetup/compare/v1.54.0...v1.55.0) (2026-06-11)
 
 ## ✨ New Features
