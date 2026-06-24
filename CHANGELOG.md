@@ -1,3 +1,8 @@
+# [v1.57.0](https://github.com/fredrkl/nvimsetup/compare/v1.56.0...v1.57.0) (2026-06-24)
+
+## ✨ New Features
+- [`a2f3695`](https://github.com/fredrkl/nvimsetup/commit/a2f3695)  Using new treesitter config
+
 # [v1.56.0](https://github.com/fredrkl/nvimsetup/compare/v1.55.0...v1.56.0) (2026-06-11)
 
 ## ✨ New Features
