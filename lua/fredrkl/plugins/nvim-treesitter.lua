@@ -3,9 +3,11 @@ return {
   dependencies = { 'nvim-lua/plenary.nvim' },
   lazy = false,
   build = ':TSUpdate',
-  config = function()
-    require('nvim-treesitter').install { 'c_sharp', 'lua', 'json' }
-  end,
+  opts = {
+    ensure_installed = { 'c_sharp', 'lua', 'json' },
+    highlight = { enable = true },
+    indent = { enable = true },
+  },
 }
 --
 --
