@@ -42,6 +42,8 @@ sudo mv tree-sitter /usr/local/bin/
 This plugin uses the Mason plugin to manage LSPs. See the mason github repo for
 [available Mason LSP
 servers](https://github.com/williamboman/mason-lspconfig.nvim?tab=readme-ov-file#available-lsp-servers).
+Mason is loaded when I open up a file. As a consequence, the Mason plugin will
+not be available when I start neovim.
 
 I aim to use [Homebrew](https://brew.sh) and my [dotfiles
 repo](https://github.com/fredrkl/dotfiles) for installing the LSPs and linters
