@@ -4,7 +4,7 @@ return {
   lazy = false,
   build = ':TSUpdate',
   opts = {
-    ensure_installed = { 'c_sharp', 'lua', 'json', 'markdown', 'markdown_inline' },
+    ensure_installed = { 'c_sharp', 'lua', 'json', 'markdown', 'markdown_inline', 'go' },
     indent = { enable = true },
   },
 }

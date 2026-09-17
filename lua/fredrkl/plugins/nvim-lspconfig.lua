@@ -88,6 +88,13 @@ return {
     })
     vim.lsp.enable("jdtls")
 
+    vim.lsp.config("gopls",{
+      capabilities = capabilities,
+      on_attach = on_attach,
+      filetypes = { "go" },
+    })
+    vim.lsp.enable("gopls")
+
     -- configure emmet language server
     vim.lsp.config("emmet_ls",{
       capabilities = capabilities,
