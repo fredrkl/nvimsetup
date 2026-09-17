@@ -1,3 +1,8 @@
+# [v1.58.0](https://github.com/fredrkl/nvimsetup/compare/v1.57.0...v1.58.0) (2026-09-17)
+
+## ✨ New Features
+- [`8e08172`](https://github.com/fredrkl/nvimsetup/commit/8e08172)  Go
+
 # [v1.57.0](https://github.com/fredrkl/nvimsetup/compare/v1.56.0...v1.57.0) (2026-06-24)
 
 ## ✨ New Features
