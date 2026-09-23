@@ -1,2 +1,3 @@
-# Fetch a random cat fact from the Cat Fact API
-GET https://catfact.ninja/fact
+### My Test Request
+GET https://example.com
+Accept: application/json

@@ -2,9 +2,10 @@ return {
   'nvim-treesitter/nvim-treesitter',
   dependencies = { 'nvim-lua/plenary.nvim' },
   lazy = false,
+  branch = 'main',
   build = ':TSUpdate',
   opts = {
-    ensure_installed = { 'c_sharp', 'lua', 'json', 'markdown', 'markdown_inline', 'go' },
+    ensure_installed = { 'c_sharp', 'lua', 'json', 'markdown', 'markdown_inline', 'go', 'http' },
     indent = { enable = true },
   },
 }
