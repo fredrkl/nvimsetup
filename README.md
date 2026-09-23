@@ -98,6 +98,22 @@ In order to use the grep telescope file search you need to install ripgrep:
 brew install ripgrep
 ```
 
+## Kulala Http
+
+This was a bit tricky to get working. I am not entirerly sure how I got it
+working, but I think something like:
+
+```bash
+nvim git:(main) ✗ ! rm -rf ~/.local/share/nvim/kulala.nvim/bin
+➜  nvim git:(main) ✗ ! xattr -d com.apple.provenance ~/.local/share/nvim/kulala.nvim/bin/kulala-core
+➜  nvim git:(main) ✗ ! codesign --force --deep --sign - ~/.local/share/nvim/kulala.nvim/bin/kulala-core
+➜  nvim git:(main) ✗ ! spctl -a -v ~/.local/share/nvim/kulala.nvim/bin/kulala-core
+➜  nvim git:(main) ✗ ! xattr -l ~/.local/share/nvim/kulala.nvim/bin/kulala-core
+com.apple.provenance:
+➜  nvim git:(main) ✗ ! sudo xattr -rd com.apple.quarantine ~/.local/share/nvim/kulala.nvim/bin/kulala-core
+Password:
+```
+
 ## Throubleshooting
 
 If the markdown preview is not working, try to run the following in its plugin folder.
