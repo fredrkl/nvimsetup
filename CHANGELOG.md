@@ -1,3 +1,8 @@
+# [v1.60.0](https://github.com/fredrkl/nvimsetup/compare/v1.59.0...v1.60.0) (2026-09-27)
+
+## ✨ New Features
+- [`96e020c`](https://github.com/fredrkl/nvimsetup/commit/96e020c)  Latest Bicep
+
 # [v1.59.0](https://github.com/fredrkl/nvimsetup/compare/v1.58.0...v1.59.0) (2026-09-23)
 
 ## ✨ New Features
