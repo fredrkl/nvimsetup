@@ -1,3 +1,8 @@
+# [v1.59.0](https://github.com/fredrkl/nvimsetup/compare/v1.58.0...v1.59.0) (2026-09-23)
+
+## ✨ New Features
+- [`c478717`](https://github.com/fredrkl/nvimsetup/commit/c478717)  Kulala Http request plugin
+
 # [v1.58.0](https://github.com/fredrkl/nvimsetup/compare/v1.57.0...v1.58.0) (2026-09-17)
 
 ## ✨ New Features
