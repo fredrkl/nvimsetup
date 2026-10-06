@@ -8,4 +8,3 @@ return {
     keymap.set("n", "<leader>rl", "<cmd>Rest last<CR>", { desc = "Run last request" })
   end,
 }
---  dependencies = { "luarocks.nvim" },
