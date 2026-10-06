@@ -1,3 +1,8 @@
+# [v1.61.0](https://github.com/fredrkl/nvimsetup/compare/v1.60.0...v1.61.0) (2026-10-06)
+
+## ✨ New Features
+- [`98374b0`](https://github.com/fredrkl/nvimsetup/commit/98374b0)  Using rest instead of kulala
+
 # [v1.60.0](https://github.com/fredrkl/nvimsetup/compare/v1.59.0...v1.60.0) (2026-09-27)
 
 ## ✨ New Features
