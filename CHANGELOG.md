@@ -1,3 +1,8 @@
+# [v1.63.0](https://github.com/fredrkl/nvimsetup/compare/v1.62.0...v1.63.0) (2026-11-27)
+
+## ✨ New Features
+- [`8c843ad`](https://github.com/fredrkl/nvimsetup/commit/8c843ad)  Using 4 spaces instead of 2 for .net
+
 # [v1.62.0](https://github.com/fredrkl/nvimsetup/compare/v1.61.0...v1.62.0) (2026-11-27)
 
 ## ✨ New Features
