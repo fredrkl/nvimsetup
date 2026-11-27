@@ -7,5 +7,6 @@ return {
     vim.api.nvim_set_keymap('n', '<F5>', "<cmd>lua require'dap'.continue()<CR>", { noremap = true, silent = true, desc = "Start/Continue" })
     vim.api.nvim_set_keymap('n', '<F7>', "<cmd>lua require'dap'.step_over()<CR>", { noremap = true, silent = true, desc = "Step Over" })
     vim.api.nvim_set_keymap('n', '<F8>', "<cmd>lua require'dap'.step_into()<CR>", { noremap = true, silent = true, desc = "Step Into" })
+    vim.api.nvim_set_keymap('n', '<leader>bs', "<cmd>Dotnet build solution<CR>", { noremap = true, silent = true, desc = "Build Solution" })
   end
 }
